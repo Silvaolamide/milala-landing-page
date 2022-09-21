@@ -25,14 +25,14 @@ export default function Home() {
             <img className="w-7 mx-2 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
           </div>
       </div>
-      <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
-          <div className="flex flex-col w-12/12 lg:w-5/12">
+      <div  className="flex  w-10/12 sm:flex-col md:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
+          <div className="flex flex-col w-5/12">
             <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
               <p className="mt-[149px] mb-0 p-0">Invest</p>
               <p className="text-[#009A9A] text-[68px] leading-[56.59px]">in African Businesses</p>
               <p className="text-[25px] font-extra-bold  leading-[29.59px] ">in Africa & Diaspora</p>
             </div>
-            <div className="flex text-[102px] font-roboto font-extra-bold  w-[100%] ">
+            <div className="flex text-[102px] font-roboto font-extra-bold border w-[100%] ">
               <div className="bg-no-repeat bg-top-5 bg-120% w-80 h-48 bg-milala-logo">
                 
               </div>
@@ -59,9 +59,9 @@ help you invest in businesses with massive ROI</span>
               
             </div>
           </div>   
-          <div className="flex  flex-col  w-12/12 md:w-8/12 font-Inter  text-[90px] justify-center">
-            <div className="border-0 justify-center    text-center">
-            <img className="w-[1500px]  mx-0 my-0 ml-0 sm:ml-10" src="./img/hero2.png" alt="Milala-Hero" />
+          <div className="flex flex-col border sm:w-12/12  w-8/12 font-Inter  text-[90px] justify-center">
+            <div className="border-0 justify-center text-center">
+            <img className="w-[1500px]  mx-0 my-0 ml-10" src="./img/hero2.png" alt="Milala-Hero" />
             
             </div>
           </div>   
@@ -73,17 +73,16 @@ help you invest in businesses with massive ROI</span>
    
         <main >
         <div className="bg-hero-mid h-[900px] bg-no-repeat bg-50% bg-top">
-            <div  className="flex flex-col md:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
-                    <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
-                      <span className="text-[#009A9A] font-extrabold">Milala</span> | Easy investing from anywhere!
-                    </div>
+            <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                    <div class="text-[#009A9A] font-roboto text-[45px] font-normal">
+                      <span className="text-[#009A9A] font-extrabold">Milala</span> | Easy investing from anywhere!</div>
                 
                     <div class="flex flex-col border-gray-400 justify-center ">
                       <div class="flex justify-end text-[#009A9A] text-[15px] font-semibold">24hrs Help</div>
-                      <div class="flex justify-end text-[#1E242C] text-4xl font-bold text-right "><span class="text-right text-[#009A9A]">+1</span>90-909-0998</div>
+                      <div class="text-[#1E242C] text-4xl font-bold"><span class="text-[#009A9A]">+1</span>90-909-0998</div>
                     </div>
             </div>
-            <div className="flex flex-col md:flex-row  justify-between w-10/12  border-red-400  mx-auto item-center tracking-tighter  mt-24">
+            <div className="flex flex-row  justify-between w-10/12  border-red-400  mx-auto item-center tracking-tighter  mt-24">
               <div class="flex flex-col text-[#009A9A] font-Inter text-[20px]   h-[300px] w-[300px]">
                 <p class="w-[100%]">1 - 4 Steps</p>
                 <p class="text-[#000000] text-[48px] leading-[39.59px] pb-0 mb-0 w-[100%]  mt-10" >
@@ -112,7 +111,7 @@ help you invest in businesses with massive ROI</span>
                     </div>
               </div>
               
-              <div class="h-[290px] md:h-[510px] w-12/12 md:w-8/12 bg-milala-step bg-no-repeat bg-50%">
+              <div class="h-[510px]   w-8/12 bg-milala-step bg-no-repeat bg-50%">
                 
                
                 </div>
@@ -122,7 +121,7 @@ help you invest in businesses with massive ROI</span>
             <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
                 <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
-                          <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Businesses </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
+                          <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[19.59px] pb-0 mb-0 w-[100%] ">Recent Businesses </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
                             <div className="">
                             <button type="button"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5">
@@ -138,29 +137,29 @@ help you invest in businesses with massive ROI</span>
                           
                         </div>
                   </div>
-                    <div class="flex flex-col lg:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                    <div class="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                 
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
+                      <div className="border h-[350px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
                   
                       </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
+                      <div className="border h-[350px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
                   
                       </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
+                      <div className="border h-[350px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
                   
                       </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
+                      <div className="border h-[350px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
                   
                       </div>
                   </div>
-                    <div  className="flex flex-col md:flex-row  mt-40 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                    <div  className="flex  mt-20 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="flex  flex-col border-gray-400 justify-center text-[#009A9A]">
-                          <div class="flex  text-[20px] font-bold "> <img class="w-[650px]" src="./img/bottom-left.png"/></div>
+                          <div class="flex justify-end  text-[20px] font-bold"> <img class="w-[650px]" src="./img/bottom-left.png"/></div>
                           
                         </div>
-                        <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
+                        <div class=" flex items-center justify-center text-[#009A9A]  h-[600px] font-Inter text-[45px] font-normal">
                           <div className="text-[#009A9A] font-extrabold  ">
-                    <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Invest in a Business </p>
+                    <p class="text-[#000000] text-[48px] leading-[19.59px] pb-0 mb-0 w-[100%] ">Invest in a Business </p>
                     <p>with as low as $100</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
@@ -176,34 +175,34 @@ help you invest in businesses with massive ROI</span>
                         
               </div>
               
-                    <div  className="flex   mt-24 bg-black-400 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter"> 
-                    <div class="flex flex-col md:flex-row  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                    <div  className="flex  mt-24 bg-black-400 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter"> 
+                    <div class="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                 
                
                 
                 
-                <div className="mb-10 bg-milala-footer bg-50% bg-no-repeat pt-40 md:pt-1 mr-10 h-[210px] w-[100%] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
+                <div className="bg-milala-footer bg-50% bg-no-repeat pt-40 mr-40 h-[280px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     
                   
                     <p>Milala uses the Blockchain technology to
 help you invest in businesses with massive ROI </p>
                 </div>
-                <div className="flex ">
-                <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
+                
+                <div className="h-[280px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     <p className="font-bold mb-7">Account </p>
                     <span className="text-sm space-y-5"><p>My Portfolio </p>
                     <p>Sign Up </p>
                     <p>Login </p></span>
                 </div>
                 
-                <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
+                <div className="h-[280px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     <p className="font-bold mb-7">Legal </p>
                     <span className="text-sm space-y-5"><p>Terms of Service</p>
                     <p>Privacy Policy</p>
                 </span>
                 </div>
                 
-                <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
+                <div className="h-[280px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     <p className="font-bold mb-7">More </p>
                     <span className="text-sm space-y-5"><p>FAQ</p>
                     <p>About Us </p>
@@ -211,7 +210,6 @@ help you invest in businesses with massive ROI </p>
                 </div>
                 
                 
-            </div>  
             </div>
                         
                   </div>
