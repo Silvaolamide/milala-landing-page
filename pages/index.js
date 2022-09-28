@@ -61,7 +61,7 @@ help you invest in businesses with massive ROI</span>
           </div>   
           <div className="flex  flex-col  w-12/12 md:w-8/12 font-Inter  text-[90px] justify-center">
             <div className="border-0 justify-center    text-center">
-            <img className="w-[1500px]  mx-0 my-0 ml-0 sm:ml-10" src="./img/hero2.png" alt="Milala-Hero" />
+            <img className="w-[1500px]  mx-0 my-0 ml-0 sm:ml-10" src="./img/7hero.png" alt="Milala-Hero" />
             
             </div>
           </div>   
