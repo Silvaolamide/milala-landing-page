@@ -160,8 +160,8 @@ help you invest in businesses with massive ROI</span>
                         </div>
                         <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
                           <div className="text-[#009A9A] font-extrabold  ">
-                    <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Invest in a Business </p>
-                    <p>with as low as $100</p>
+                    <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Invest in an African </p>
+                    <p>Business</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
                             <div className=" ">
