@@ -39,7 +39,7 @@ export default function Home() {
               </div>
               <div className=" flex flex-col text-[17px] font-bolder my-0  pt-8">
                 <div className="flex flex-col border-red-400 border-l-[1px] pl-4 h-24 justify-center tracking-normal "><span className="inline-block">Milala uses the <span className="text-[#009A9A] ">Blockchain technology</span> to
-help you invest in businesses with massive ROI</span>
+help you Support businesses with massive ROI</span>
                 </div>
                 
               </div>
@@ -47,7 +47,7 @@ help you invest in businesses with massive ROI</span>
             <div className="flex font-Inter font-normal text-[13px]">
               <div className="">
               <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                Start Investing
+                Support a Business
                   </button>
                   
                 </div>
@@ -99,7 +99,7 @@ help you invest in businesses with massive ROI</span>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className="">
                       <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                        Start Investing
+                        I want to Support a Business
                           </button>
                           
                         </div>
@@ -161,13 +161,13 @@ help you invest in businesses with massive ROI</span>
                         </div>
                         <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
                           <div className="text-[#009A9A] font-extrabold  ">
-                    <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Invest in an African </p>
+                    <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Support  an African </p>
                     <p>Business</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
                             <div className=" ">
                             <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                Start Investing
+              I Want to Support a Business 
                   </button>
                             
                           </div>
@@ -187,7 +187,7 @@ help you invest in businesses with massive ROI</span>
                     
                   
                     <p>Milala uses the Blockchain technology to
-help you invest in businesses with massive ROI </p>
+help you Support businesses and startups with massive ROI </p>
                 </div>
                 <div className="flex ">
                 <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
