@@ -28,9 +28,10 @@ export default function Home() {
       <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
           <div className="flex flex-col w-12/12 lg:w-5/12">
             <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
-              <p className="mt-[149px] mb-0 p-0">Invest</p>
-              <p className="text-[#009A9A] text-[68px] leading-[56.59px]">in African Businesses</p>
-              <p className="text-[25px] font-extra-bold  leading-[29.59px] ">in Africa & Diaspora</p>
+              <p className="mt-[149px] mb-0 p-0">Support</p>
+              <p className="text-[#009A9A] text-[68px] leading-[56.59px]">African </p>
+              <p className="text-[#009A9A] text-[68px] leading-[56.59px]">Startups </p>
+              <p className="text-[20px] font-extra-bold  leading-[29.59px] ">in Africa & Diaspora</p>
             </div>
             <div className="flex text-[102px] font-roboto font-extra-bold  w-[100%] ">
               <div className="bg-no-repeat bg-top-5 bg-120% w-80 h-48 bg-milala-logo">
