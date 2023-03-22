@@ -139,21 +139,81 @@ help you Support businesses with massive ROI</span>
                           
                         </div>
                   </div>
-                    <div class="flex flex-col lg:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
-                
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
                   
-                      </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
-                  
-                      </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
-                  
-                      </div>
-                      <div className="border h-[390px] w-[100%] lg:w-[250px] mb-5 rounded-3xl border-[#f1fafa] drop-shadow-xl bg-white">
-                  
-                      </div>
-                  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 content-start">    
+    
+    <div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
+      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+
+Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      </p>
+<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+
+</div>
+</div>
+
+
+<div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
+      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+
+Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      </p>
+<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+
+</div>
+</div>
+
+<div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
+      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+
+Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      </p>
+<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+
+</div>
+</div>
+
+<div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
+      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+
+Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      </p>
+<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
                     <div  className="flex flex-col md:flex-row  mt-40 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="flex  flex-col border-gray-400 justify-center text-[#009A9A]">
                           <div class="flex  text-[20px] font-bold "> <img class="w-[650px]" src="./img/bottom-left.png"/></div>
