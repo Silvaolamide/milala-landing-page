@@ -142,16 +142,16 @@ help you Support businesses with massive ROI</span>
                         </div>
                   </div>
                   
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 content-start">    
+  <div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex justify-center content-start">    
     
-    <div class="rounded-xl shadow-lg bg-white  ">
+    <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-04-10-135937.png?resize=150%2C150&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-2xl font-mono text-[#009A9A] font-bold text-center mt-4">Loli Creations</h5>
-      <p class="text-slate-500 text-lg mt-9">Loli began out of a love for creating beautiful pieces of handmade accessories. 
-We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+      <h5 class="text-2xl md:text-2xl font-mono text-[#009A9A] font-bold text-center mt-5">Loli Creations</h5>
+      <p class="text-black-500 font-mono md:text-s font-bold  mt-4">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
 
 
       </p>
@@ -169,7 +169,7 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/IRRIFARM.png?resize=1024%2C475&ssl=1" class="h-60 w-full" alt="Business Image" ></img>
       </div>
       <h5 class="text-2xl md:text-2xl font-mono text-[#009A9A] font-bold text-center mt-4">IrriFarm</h5>
-      <p class="text-slate-500 text-lg mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
+      <p class="text-black-500 md:text-s font-bold font-mono mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
 <a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
@@ -184,7 +184,7 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-02-18-131517.png?resize=300%2C174&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <h5 class="text-2xl md:text-2xl font-mono font-bold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
-      <p class="text-slate-500 text-lg mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
+      <p class="text-black-700 md:text-m text-m font-bold font-mono mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
 <a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
@@ -199,7 +199,7 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
       </div>
       <h5 class="text-2xl md:text-2xl text-[#009A9A] font-mono font-bold text-center mt-4">ScanPaY
 </h5>
-      <p class="text-slate-500 text-lg mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
+      <p class="text-black-500 md:text-m font-bold font-mono mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
       </p>
       <div class='flex justify-center mt-3'>
