@@ -156,7 +156,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 font-mono rounded-lg font-semibold mt-3 w-1/3   hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
 </div> 
 
 </div>
@@ -172,7 +172,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-500 lg:text-xl md:text-s font-bold font-mono mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
-<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="#" class="text-center bg-[#009A9A] text-white font-mono py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
 </div>
 
 </div>
@@ -187,7 +187,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-700 md:text-m lg:text-lg font-bold font-mono mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 font-mono rounded-lg font-semibold mt-3 w-1/3  hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
 </div>
 </div>
 </div>
@@ -203,7 +203,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-200 transition-all duration-400 ease-out">View</a>
+<a href ="#" class="text-center bg-[#009A9A] text-white font-mono py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-transparent hover:text-[#009A9A] focus:scale-200 transition-all duration-400 ease-out">View</a>
 </div>
 </div>
 </div>
