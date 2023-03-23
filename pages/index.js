@@ -145,13 +145,13 @@ help you Support businesses with massive ROI</span>
     <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-04-10-135937.png?resize=150%2C150&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
       <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
 We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
 
-Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+
       </p>
 <a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
 
@@ -162,13 +162,10 @@ Our brand has a touch of African/Kenyan fabric and African beadwork design from 
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/IRRIFARM.png?resize=1024%2C475&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
-      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
-We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
-
-Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">IrriFarm</h5>
+      <p class="text-slate-500 text-lg mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
 <a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
 
@@ -178,13 +175,10 @@ Our brand has a touch of African/Kenyan fabric and African beadwork design from 
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-02-18-131517.png?resize=300%2C174&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
-      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
-We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
-
-Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Usafi Sanitation</h5>
+      <p class="text-slate-500 text-lg mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
 <a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
 
@@ -194,13 +188,12 @@ Our brand has a touch of African/Kenyan fabric and African beadwork design from 
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-11.06.47-AM-e1657018888926.jpeg?resize=300%2C259&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
-      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
-We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
+      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">ScanPaY
+</h5>
+      <p class="text-slate-500 text-lg mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
-Our brand has a touch of African/Kenyan fabric and African beadwork design from a Kenyan tribe known as the Masai, bringing a piece of Kenya and Africa to the world.
       </p>
 <a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
 
