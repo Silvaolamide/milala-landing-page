@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
+
+
 export default function Home() {
   return (
     <>
@@ -99,7 +101,7 @@ help you Support businesses with massive ROI</span>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className="">
                       <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                        I want to Support a Business
+                        Support a Business
                           </button>
                           
                         </div>
@@ -140,20 +142,22 @@ help you Support businesses with massive ROI</span>
                         </div>
                   </div>
                   
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 content-start">    
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 content-start">    
     
     <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-04-10-135937.png?resize=150%2C150&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Loli Creations</h5>
-      <p class="text-slate-500 text-lg mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+      <h5 class="text-2xl md:text-2xl font-mono text-[#009A9A] font-bold text-center mt-4">Loli Creations</h5>
+      <p class="text-slate-500 text-lg mt-9">Loli began out of a love for creating beautiful pieces of handmade accessories. 
 We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
 
 
       </p>
-<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+      <div class='flex justify-center mt-3'>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+</div> 
 
 </div>
 </div>
@@ -162,12 +166,14 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/IRRIFARM.png?resize=1024%2C475&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/IRRIFARM.png?resize=1024%2C475&ssl=1" class="h-60 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">IrriFarm</h5>
+      <h5 class="text-2xl md:text-2xl font-mono text-[#009A9A] font-bold text-center mt-4">IrriFarm</h5>
       <p class="text-slate-500 text-lg mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
-<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
+      <div class='flex justify-center mt-6'>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+</div>
 
 </div>
 </div>
@@ -177,11 +183,12 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
         <div class="rounded-xl overflow-hidden">
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-02-18-131517.png?resize=300%2C174&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">Usafi Sanitation</h5>
+      <h5 class="text-2xl md:text-2xl font-mono font-bold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
       <p class="text-slate-500 text-lg mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
-<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
-
+      <div class='flex justify-center mt-3'>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">View</a>
+</div>
 </div>
 </div>
 
@@ -190,13 +197,14 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
         <div class="rounded-xl overflow-hidden">
           <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-11.06.47-AM-e1657018888926.jpeg?resize=300%2C259&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <h5 class="text-2xl md:text-3xl font-bold text-center mt-4">ScanPaY
+      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-mono font-bold text-center mt-4">ScanPaY
 </h5>
       <p class="text-slate-500 text-lg mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
       </p>
-<a href ="#" class="text-center bg-blue-400 text-white py-2 rounded-lg font-semibold mt-4   hover:bg-blue-300 foucs:scale-95 transition-all duration-200 ease-out">View</a>
-
+      <div class='flex justify-center mt-3'>
+<a href ="#" class="text-center bg-[#009A9A] text-white py-2 rounded-lg font-semibold mt-3 w-1/3   hover:bg-blue-300 focus:scale-200 transition-all duration-400 ease-out">View</a>
+</div>
 </div>
 </div>
 
@@ -220,7 +228,7 @@ We offers tote bags, toiletry bags, backpacks, purses, travel bags and laptop sl
                           
                             <div className=" ">
                             <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-              I Want to Support a Business 
+              Support a Business 
                   </button>
                             
                           </div>
@@ -281,7 +289,7 @@ help you Support businesses and startups with massive ROI </p>
                 <div className="flex  flex-col h-[100px] items-center text-[#7da7a7] pt-10  text-sm">
                     
                   
-                    <p className="">(c) Milala 2022. All Rights  Reserved</p>
+                    <p className="">(c) Milala 2023. All Rights  Reserved</p>
                     <p>Powered by: <span className=" text-lg font-semibold">Auspicious Blockchain</span></p>
                 </div>
                 
