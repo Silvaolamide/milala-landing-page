@@ -137,7 +137,7 @@ help you Support businesses with massive ROI</span>
                         </div></span></div>
                     
                         <div class="flex flex-col border-gray-400 justify-center text-[#009A9A]">
-                          <div class="flex justify-end  text-[20px] font-bold">View Business More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
+                          <div class="flex justify-end  text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
                           
                         </div>
                   </div>
