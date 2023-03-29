@@ -152,13 +152,13 @@ help you Support businesses with massive ROI</span>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">Loli Creations</h5>
       </div>
-      <p class="text-black-500 font-roboto xl-text-l md:text-m font-bold lg:text-base mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
+      <p class="text-black-500 font-roboto xl-text-l md:text-m font-extrabold lg:text-base mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
 We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
 
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div> 
 
 </div>
@@ -176,7 +176,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
-<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3" >View Business</a>
+<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3" >View Business</a>
 </div>
 
 </div>
@@ -190,10 +190,10 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
       </div>
-      <p class="text-black-700 md:text-m lg:text-base xl-text-l font-bold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
+      <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div>
 </div>
 </div>
@@ -210,7 +210,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div>
 </div>
 </div>
