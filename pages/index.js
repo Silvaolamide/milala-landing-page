@@ -137,7 +137,7 @@ help you Support businesses with massive ROI</span>
                         </div></span></div>
                     
                         <div class="flex flex-col border-gray-400 justify-center text-[#009A9A]">
-                          <div class="flex justify-end  text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
+                          <div class="flex justify-end  text-[20px] font-bold">View Business More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
                           
                         </div>
                   </div>
@@ -158,7 +158,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/loli-creations_demo/" class="text-center bg-[#009A9A] text-white py-2 font-roboto rounded-lg font-semibold mt-3 w-1/3   hover:bg-transparent hover:text-[#009A9A] hover:border-[#009A9A] border-2 focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div> 
 
 </div>
@@ -176,7 +176,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-bold font-roboto mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
-<a href ="https://ab-africanprojects.com/irrifarm_demo/" class="text-center bg-[#009A9A] text-white font-roboto py-2 rounded-lg font-semibold mt-3 w-1/3  hover:border-[#009A9A] border-2 hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3" >View Business</a>
 </div>
 
 </div>
@@ -193,7 +193,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-700 md:text-m lg:text-base xl-text-l font-bold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/" class="text-center bg-[#009A9A] text-white font-roboto py-2 rounded-lg font-semibold mt-3 w-1/3  hover:border-[#009A9A] border-2 hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div>
 </div>
 </div>
@@ -210,7 +210,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/scanpay_demo/" class="text-center bg-[#009A9A] text-white font-roboto py-2 rounded-lg font-semibold mt-3 w-1/3  hover:border-[#009A9A] border-2 hover:bg-transparent hover:text-[#009A9A] focus:scale-95 transition-all duration-200 ease-out">View</a>
+<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
 </div>
 </div>
 </div>
