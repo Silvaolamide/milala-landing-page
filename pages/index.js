@@ -147,7 +147,7 @@ help you Support businesses with massive ROI</span>
     <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-04-10-135937.png?resize=150%2C150&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">Loli Creations</h5>
@@ -168,7 +168,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/IRRIFARM.png?resize=1024%2C475&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Irrifarm.jpg" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">IrriFarm</h5>
@@ -185,7 +185,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/04/Screenshot-2022-02-18-131517.png?resize=300%2C174&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Usafi.png" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
@@ -201,10 +201,10 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="https://i0.wp.com/ab-africanprojects.com/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-11.06.47-AM-e1657018888926.jpeg?resize=300%2C259&ssl=1" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
       </div>
  
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">ScanPaY </h5>
+      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Scanpay </h5>
     
       <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
