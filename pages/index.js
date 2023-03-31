@@ -204,9 +204,9 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
           <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
       </div>
  
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Scanpay </h5>
+      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
     
-      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">ScanPay allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
+      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
       </p>
       <div class='flex justify-center mt-3'>
