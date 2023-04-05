@@ -6,10 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.12.7",
+    "ethers": "^5.7.2",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-jsx-plugin-sass": "^1.0.0"
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "wagmi": "^0.12.9"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
