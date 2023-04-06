@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 
@@ -16,17 +17,25 @@ export default function Home() {
     </head>
     <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50%  ">
     <header className="pt-9">
-      <div  className="flex w-10/12 h-auto border-red-400  justify-end mx-auto ">    
+   
+      <div  className="flex w-10/12 h-auto border-red-400  justify-start mx-auto ">    
           <div className="font-Inter  text-white text-right ">
 
             <span className="text-smm font-medium block leading-3">Auspicious Blockchain</span>
             <span className="text-xss font-thin  text-gray-300 block">Auspicious Blockchain Pte Ltd</span>
 
           </div>
+         
+          
           <div className="flex justify-center items-end"> 
             <img className="w-7 mx-2 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
           </div>
       </div>
+      <div className="justify-end flex flex-end -mt-8 mr-8">
+          <ConnectButton />;
+         </div>
+
+      
       <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
           <div className="flex flex-col w-12/12 lg:w-5/12">
             <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
@@ -39,6 +48,8 @@ export default function Home() {
               <div className="bg-no-repeat bg-top-5 bg-120% w-80 h-48 bg-milala-logo">
                 
               </div>
+             
+
               <div className=" flex flex-col text-[17px] font-bolder my-0  pt-8">
                 <div className="flex flex-col border-red-400 border-l-[1px] pl-4 h-24 justify-center tracking-normal "><span className="inline-block">Milala uses the <span className="text-[#009A9A] ">Blockchain technology</span> to
 help you Support businesses with massive ROI</span>
