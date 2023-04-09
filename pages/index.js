@@ -156,11 +156,11 @@ help you Support businesses with massive ROI</span>
                   
   <div class="grid grid-cols-1 md:grid-flow-col w-11/12 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5 mb-2 rounded-20 mx-auto my-auto md:flex justify-center  item-center tracking-tighter content-start">    
     
-    <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
+    <div class="rounded-2xl shadow-lg bg-white md:w-full w-full  flex justify-center ">
       <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
-      </div>
+    
+          <img src="./img/Loli.png" class="h-64 rounded-xl overflow-hidden w-full" alt="Business Image" ></img>
+     
       <div class="flex justify-center items-center">
       <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  items-center mt-4">Loli Creations</h5>
       </div>
@@ -177,11 +177,11 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 </div>
 
 
-<div class="rounded-xl shadow-lg bg-white  ">
+<div class="rounded-2xl w-full md:w-full shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Irrifarm.jpg" class="h-64 w-full" alt="Business Image" ></img>
-      </div>
+       
+          <img src="./img/Irrifarm.jpg" class="rounded-2xl overflow-hidden h-64 w-full" alt="Business Image" ></img>
+      
       <div class="flex justify-center items-center">
       <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  text-center mt-4">IrriFarm</h5>
       </div>
@@ -194,11 +194,11 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 </div>
 </div>
 
-<div class="rounded-xl shadow-lg bg-white  ">
+<div class="rounded-2xl w-full md:w-full shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Usafi.png" class="h-64 w-full" alt="Business Image" ></img>
-      </div>
+       
+          <img src="./img/Usafi.png" class="h-64 w-full rounded-xl overflow-hidden" alt="Business Image" ></img>
+   
       <div class="flex justify-center items-center">
       <h5 class="text-xl md:text-xl  font-Inter  text-[#009A9A] text-center items-center mt-4">Usafi Sanitation</h5>
       </div>
@@ -210,11 +210,11 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 </div>
 </div>
 
-<div class="rounded-xl shadow-lg bg-white  ">
+<div class="rounded-2xl shadow-lg w-full md:w-full bg-white  ">
       <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
-      </div>
+        
+          <img src="./img/Scanpay.jpeg" class="h-64 w-full rounded-3xl overflow-hidden" alt="Business Image" ></img>
+      
  
       <div class="flex justify-center items-center">
       <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  text-center mt-4">Auspicious Blockchain</h5>
