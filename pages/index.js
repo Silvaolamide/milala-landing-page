@@ -153,7 +153,7 @@ help you Support businesses with massive ROI</span>
                         </div>
                   </div>
                   
-  <div class="grid grid-cols-2 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 mb-2 rounded-20 md:ml-2 md:flex justify-between mx-auto item-center tracking-tighter content-start">    
+  <div class="grid grid-cols-1 md:grid-flow-col w-11/12 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 mb-2 rounded-20 mx-auto my-auto md:flex justify-center  item-center tracking-tighter content-start">    
     
     <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
       <div class="p-4 flex flex-col">
