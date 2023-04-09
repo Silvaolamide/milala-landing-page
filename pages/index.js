@@ -134,7 +134,7 @@ help you Support businesses with massive ROI</span>
            
 
             <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
-                <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                <div  className="flex flex-wrap mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
                           <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Businesses </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
@@ -201,7 +201,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
       </div>
-      <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
+      <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3 whitespace-normal flex-wrap"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
 <a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
