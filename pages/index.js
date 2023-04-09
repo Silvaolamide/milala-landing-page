@@ -161,8 +161,8 @@ help you Support businesses with massive ROI</span>
         <div class="rounded-xl overflow-hidden">
           <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <div class="flex items-center">
-      <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold items-center mt-4">Loli Creations</h5>
+      <div class="flex justify-center items-center">
+      <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  items-center mt-4">Loli Creations</h5>
       </div>
       <p class="text-black-500 font-roboto xl-text-l md:text-m font-extrabold lg:text-base mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
 We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
@@ -182,8 +182,8 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
         <div class="rounded-xl overflow-hidden">
           <img src="./img/Irrifarm.jpg" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <div class="flex items-center">
-      <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">IrriFarm</h5>
+      <div class="flex justify-center items-center">
+      <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  text-center mt-4">IrriFarm</h5>
       </div>
       <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
@@ -199,8 +199,8 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
         <div class="rounded-xl overflow-hidden">
           <img src="./img/Usafi.png" class="h-64 w-full" alt="Business Image" ></img>
       </div>
-      <div class="flex items-center">
-      <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
+      <div class="flex justify-center items-center">
+      <h5 class="text-xl md:text-xl  font-Inter  text-[#009A9A] text-center items-center mt-4">Usafi Sanitation</h5>
       </div>
       <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3 whitespace-normal flex-wrap"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
@@ -216,8 +216,9 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
           <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
       </div>
  
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
-    
+      <div class="flex justify-center items-center">
+      <h5 class="text-xl md:text-xl font-Inter text-[#009A9A]  text-center mt-4">Auspicious Blockchain</h5>
+      </div>
       <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
       </p>
