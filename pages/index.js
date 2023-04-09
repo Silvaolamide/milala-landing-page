@@ -134,7 +134,7 @@ help you Support businesses with massive ROI</span>
            
 
             <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
-                <div  className="flex flex-wrap mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
+                <div  className="flex flex-wrap mt-3 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
                           <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Businesses </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
@@ -147,8 +147,8 @@ help you Support businesses with massive ROI</span>
                           
                         </div></span></div>
                     
-                        <div class="flex flex-col border-gray-400 justify-center text-[#009A9A]">
-                          <div class="flex justify-end  text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
+                        <div class="flex flex-col my-auto border-gray-400 justify-center text-[#009A9A]">
+                          <div class="flex justify-end my-auto text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
                           
                         </div>
                   </div>
