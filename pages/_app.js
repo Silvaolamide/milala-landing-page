@@ -1,7 +1,7 @@
 import 'tailwindcss/tailwind.css'
 import dynamic from "next/dynamic";
 import '@rainbow-me/rainbowkit/styles.css';
-import { getDefaultWallets, RainbowKitProvider, 
+import { getDefaultWallets, RainbowKitProvider, lightTheme
 } from '@rainbow-me/rainbowkit';
 import { configureChains, createClient, WagmiConfig } from 'wagmi';
 import { mainnet, polygon, optimism, arbitrum, polygonMumbai, bsc, bscTestnet} from 'wagmi/chains';
@@ -31,7 +31,20 @@ const wagmiClient = createClient({
 function MyApp({ Component, pageProps }) {
  return (
   <WagmiConfig client={wagmiClient}>
-    <RainbowKitProvider chains={chains}>
+    <RainbowKitProvider chains={chains}
+    
+    theme={lightTheme({
+      accentColor: '#009A9A',
+      accentColorForeground: 'white',
+      borderRadius: 'medium',
+      fontStack: 'system',
+      modalAccentColor: '#009A9A',
+    
+    })}
+    
+    
+    >
+      
     <Component {...pageProps} />
     </RainbowKitProvider>
   </WagmiConfig>
