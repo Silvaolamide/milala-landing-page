@@ -15,7 +15,7 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800;900&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
-    <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50%  ">
+    <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50% ">
     <header className="pt-9">
    
       <div  className="flex w-10/12 h-auto border-red-400  justify-start mx-auto ">    
@@ -147,13 +147,13 @@ help you Support businesses with massive ROI</span>
                           
                         </div></span></div>
                     
-                        <div class="flex flex-col my-auto border-gray-400 justify-center text-[#009A9A]">
-                          <div class="flex justify-end my-auto text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
+                        <div class="flex flex-col mt-20 my-30 border-gray-400 justify-center text-[#009A9A]">
+                          <div class="flex justify-end  mx-auto  text-[20px] font-bold">View More <img class="w-[19px] ml-3" src="./img/arrow.svg"/></div>
                           
                         </div>
                   </div>
                   
-  <div class="grid grid-cols-1 md:grid-flow-col w-11/12 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 mb-2 rounded-20 mx-auto my-auto md:flex justify-center  item-center tracking-tighter content-start">    
+  <div class="grid grid-cols-1 md:grid-flow-col w-11/12 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5 mb-2 rounded-20 mx-auto my-auto md:flex justify-center  item-center tracking-tighter content-start">    
     
     <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
       <div class="p-4 flex flex-col">
@@ -161,7 +161,7 @@ help you Support businesses with massive ROI</span>
           <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
       </div>
       <div class="flex items-center">
-      <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">Loli Creations</h5>
+      <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold items-center mt-4">Loli Creations</h5>
       </div>
       <p class="text-black-500 font-roboto xl-text-l md:text-m font-extrabold lg:text-base mt-3">Loli began out of a love for creating beautiful pieces of handmade accessories. 
 We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sleeves.
