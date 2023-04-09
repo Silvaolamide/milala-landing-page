@@ -31,8 +31,8 @@ export default function Home() {
             <img className="w-7 mx-2 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
           </div>
       </div>
-      <div className="justify-end flex flex-end -mt-8 mr-8 bg">
-          <ConnectButton />;
+      <div className="justify-end flex flex-end items-end -mt-8 mr-8 sm:mr-10 sm:justify-end  md:justify-end sm:flex-end sm:items-end">
+      <ConnectButton />
          </div>
 
       
