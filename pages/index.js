@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-
+import Navbar from '../components/navigation';
 
 
 
@@ -15,32 +15,17 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800;900&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
+  
     <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50% ">
-    <header className="pt-9">
-   
-      <div  className="flex ml-10 h-auto border-red-400 items-start flex-start justify-start mx-auto ">    
-          <div className="font-Inter  text-white text-right ">
-
-            <span className="text-smm text-#[009A9A] font-extra-bold block leading-3">Auspicious Blockchain</span>
-            <span className="text-xss font-extra-bold  text-[#009A9A] block">Auspicious Blockchain Pte Ltd</span>
-
-          </div>
-         
-          
-          <div className="flex justify-center items-end"> 
-            <img className="w-7 mx-2 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
-          </div>
-      </div>
-
-      <div className="justify-end flex flex-end items-end -mt-8 mr-3 sm:mr-10 sm:justify-end  md:justify-end sm:flex-end sm:items-end">
-      <ConnectButton />
-         </div>
-
-      
+    <div id="navbar" class="rounded-xl p-3  bg-white  mx-8 px-4 py-0">
+<Navbar />
+</div>
+    <section id="Hero" className="pt-2">
+             
       <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
           <div className="flex flex-col w-12/12 lg:w-5/12">
             <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
-              <p className="mt-[149px] mb-0 p-0">Support</p>
+              <p className="mt-[90px] mb-0 p-0">Support</p>
               <p className="text-[#009A9A] text-[68px] leading-[56.59px]">African </p>
               <p className="text-[#009A9A] text-[68px] leading-[56.59px]">Startups </p>
               <p className="text-[20px] font-extra-bold  leading-[29.59px] ">in Africa & Diaspora</p>
@@ -81,13 +66,12 @@ help you Support businesses with massive ROI</span>
             </div>
           </div>   
           </div>
-     
+         
       
-      
-        </header>
+        </section>
    
-        <main >
-        <div className="bg-hero-mid h-[900px] bg-no-repeat bg-50% bg-top">
+        
+        <section id='steps'className="bg-hero-mid h-[900px] bg-no-repeat bg-50% bg-top">
             <div  className="flex flex-col md:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                     <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
                       <span className="text-[#009A9A] font-extrabold">Milala</span> | Easy investing from anywhere!
@@ -126,13 +110,14 @@ help you Support businesses with massive ROI</span>
                       
                     </div>
               </div>
+            
               
               <div class="h-[290px] md:h-[510px] w-12/12 md:w-8/12 bg-milala-step bg-no-repeat bg-50%">
                 
                
                 </div>
             </div>
-           
+            </section>  
 
             <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
                 <div  className="flex flex-wrap mt-3 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
@@ -287,9 +272,9 @@ help you Support businesses and startups with massive ROI </p>
                 
                 <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     <p className="font-bold mb-7">More </p>
-                    <span className="text-sm space-y-5"><p>FAQ</p>
+                    <span className="text-sm space-y-5"><p>FAQs</p>
                     <p>About Us </p>
-                    <p>Contact Us</p></span>
+                    <p>Register </p></span>
                 </div>
                 
                 
@@ -322,14 +307,14 @@ help you Support businesses and startups with massive ROI </p>
             </div>
           </div>
        
-        </main>
+     
         
     <footer>
  
 
           </footer>
       
-    </div>
+
 
     </>
   )

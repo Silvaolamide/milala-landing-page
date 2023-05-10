@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '3': ^2.1.0
   '@babel/core': ^7.21.4
+  '@openzeppelin/contracts': ^4.8.3
   '@rainbow-me/rainbowkit': ^0.12.7
   '@types/node': '*'
   autoprefixer: ^10.4.14
@@ -21,6 +22,7 @@ specifiers:
 
 dependencies:
   '3': 2.1.0
+  '@openzeppelin/contracts': 4.8.3
   '@rainbow-me/rainbowkit': 0.12.9_wzwe65onfo5oqwymej343bdr74
   '@types/node': 18.16.0
   ethers: 5.7.2
@@ -888,6 +890,10 @@ packages:
     dependencies:
       mkdirp: 1.0.4
       rimraf: 3.0.2
+
+  /@openzeppelin/contracts/4.8.3:
+    resolution: {integrity: sha512-bQHV8R9Me8IaJoJ2vPG4rXcL7seB7YVuskr4f+f5RyOStSZetwzkWtoqDMl5erkBJy0lDRUnIR2WIkPiC0GJlg==}
+    dev: false
 
   /@pedrouid/environment/1.0.1:
     resolution: {integrity: sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug==}
