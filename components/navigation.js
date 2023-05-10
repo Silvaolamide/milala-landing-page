@@ -18,10 +18,10 @@ const Navbar = () => {
                      
         <nav aria-label="Header Navigation" font-Inter font-extra-bold class="peer-checked:pt-4  peer-checked:max-h-60 flex max-h-0 w-10/12 flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
   <ul class="flex w-10/12 bg-transparent flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
-    <li class="lg:mr-12"><a class="rounded -ml-20 text-gray transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Projects</a></li>
-    <li class="lg:mr-12"><a class="rounded text-gray transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Investments</a></li>
-    <li class="lg:mr-12"><a class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Register</a></li>
-    <li class="lg:mr-12"><a class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="/milestone">Milestones</a></li>
+    <li class="lg:mr-12"><a class="rounded -ml-20 text-gray transition " href="#">Projects</a></li>
+    <li class="lg:mr-12"><a class="rounded text-gray transition " href="#">Investments</a></li>
+    <li class="lg:mr-12"><a class="rounded text-gray-700 transition " href="#">Register</a></li>
+    <li class="lg:mr-12"><a class="rounded text-gray-700 transition " href="/milestone">Milestones</a></li>
   </ul>
   <hr class=" w-full lg:hidden" />
   <div class=" flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
