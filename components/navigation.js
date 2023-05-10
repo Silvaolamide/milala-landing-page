@@ -6,11 +6,14 @@ const Navbar = () => {
   return (
     <div  class="text-slate-700 container relative mx-auto rounded-xl  flex flex-col overflow-hidden px-2 py-2 lg:flex-row lg:items-center">    
     <div id =" logo" className="flex justify-center items-end"> 
+    <Link href="/">
           <img className="w-7 mx-1 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
+          </Link>
         </div>
         <div className="font-Inter items-start px-3 text-xl font-extra-bold text-[#009A9A] text-right ">
+          <Link href="/">
            Milala
-        
+        </Link>
         </div>
                      
         <nav aria-label="Header Navigation" font-Inter font-extra-bold class="peer-checked:pt-4  peer-checked:max-h-60 flex max-h-0 w-10/12 flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
