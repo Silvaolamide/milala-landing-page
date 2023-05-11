@@ -21,9 +21,9 @@ export default function Home() {
     </head>
   
     <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50% ">
-    <div id="navbar" class="rounded-xl p-3  bg-white  mx-8 px-4 py-0">
+    
 <Navbar />
-</div>
+
     <Hero />
         
         < Steps />
