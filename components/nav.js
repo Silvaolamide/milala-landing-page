@@ -1,11 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-
-const Navbar = () => {
-  return (
-     
-    
+ 
     <section id="Navbar" class="rounded-xl  w-full">
     <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
@@ -40,9 +33,3 @@ const Navbar = () => {
     </nav>
     
     </section>
-     
-  )
-}
-
-export default Navbar;
-

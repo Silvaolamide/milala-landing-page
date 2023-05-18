@@ -1,7 +1,7 @@
 const Steps = () => {
     return(
 
-<section id='steps'className="bg-hero-mid h-[900px] bg-no-repeat  bg-50% bg-top">
+<section id='steps'className="bg-hero-mid h-[900px]  bg-no-repeat  bg-50% bg-top">
             <div  className="flex flex-col md:flex-row mt-6  bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                     <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
                       <span className="text-[#009A9A] font-extrabold">Milala</span> | Easy investing from anywhere!
