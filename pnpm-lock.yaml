@@ -8,7 +8,7 @@ specifiers:
   '@types/node': '*'
   autoprefixer: ^10.4.14
   ethers: ^5.7.2
-  next: ^13.2.4
+  next: '^13.2.4 '
   node-sass: ^ 8.0.0
   postcss: ^8.4.21
   react: ^18.2.0
