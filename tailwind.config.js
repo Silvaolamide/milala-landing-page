@@ -3,6 +3,10 @@ const flowbite = require('flowbite');
 
 module.exports = {
   mode: 'jit',
+  content: [
+    "./node_modules/flowbite/**/*.js",
+    // Add other content paths if needed
+  ],
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './public/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {

@@ -12,6 +12,7 @@ export default function Home() {
     <head>
           <title>Milala</title>
           <link rel="icon" href="/favicon.ico" />
+          <script src="/path/to/flowbite/dist/flowbite.min.js" />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800;900&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
@@ -346,7 +347,7 @@ help you Support businesses and startups with massive ROI </p>
  
 
           </footer>
-      
+          <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </div>
 
     </>
