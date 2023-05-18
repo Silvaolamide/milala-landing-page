@@ -39,7 +39,7 @@ export default function Home() {
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+            <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
           </li>
           <li>
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 ">Contact</a>
@@ -54,20 +54,6 @@ export default function Home() {
     <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50%  ">
     <header className="pt-9">
    
-      <div  className="flex w-10/12 h-auto border-red-400  justify-start mx-auto ">    
-          <div className="font-Inter  text-white text-right ">
-
-            <span className="text-smm text-#[009A9A] font-extra-bold block leading-3">Auspicious Blockchain</span>
-            <span className="text-xss font-extra-bold  text-[#009A9A] block">Auspicious Blockchain Pte Ltd</span>
-
-          </div>
-         
-          
-          <div className="flex justify-center items-end"> 
-            <img className="w-7 mx-2 my-0" src="./img/auspicious-blockchain-logo.svg" alt="Auspicious Blockchain Logo" />
-          </div>
-      </div>
-      
 
       
       <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
