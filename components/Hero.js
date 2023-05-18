@@ -5,9 +5,9 @@ const Hero = () =>{
 return (
 <section id="Hero" className="pt-2">
              
-             <div  className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
+             <div  className="flex mt-10 w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter"> 
                  <div className="flex flex-col w-12/12 lg:w-5/12">
-                   <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
+                   <div className="flex flex-col  text-[102px] mt-10 font-Inter font-extrabold  leading-[87.59px]">
                      <p className="mt-[90px] mb-0 p-0">Support</p>
                      <p className="text-[#009A9A] text-[68px] leading-[56.59px]">African </p>
                      <p className="text-[#009A9A] text-[68px] leading-[56.59px]">Startups </p>
@@ -44,7 +44,7 @@ return (
                  </div>   
                  <div className="flex  flex-col  w-12/12 md:w-8/12 font-Inter  text-[90px] justify-center">
                    <div className="border-0 justify-center    text-center">
-                   <img className="w-[1500px]  mx-0 my-0 ml-0 sm:ml-10" src="./img/7herob.png" alt="Milala-Hero" />
+                   <img className="w-[1500px]  mx-4 my-0 ml-0 sm:ml-10" src="./img/7herob.png" alt="Milala-Hero" />
                    
                    </div>
                  </div>   
