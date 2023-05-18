@@ -1,4 +1,6 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
+const flowbite = require('flowbite');
+
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './public/**/*.{js,ts,jsx,tsx}'],
@@ -45,10 +47,13 @@ module.exports = {
         "medium": "500",
        "extra-bold": "900"
       },
+      ...flowbite.theme, // Add Flowbite classes
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [
+    require('flowbite/plugin'),
+  ],
+};
