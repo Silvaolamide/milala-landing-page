@@ -42,7 +42,7 @@ export default function Home() {
 
     <Hero />
     </header>
-
+<Steps />
 <Projects />
 <CTA />
 
