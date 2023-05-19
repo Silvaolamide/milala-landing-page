@@ -24,9 +24,7 @@ const Dboard = () => {
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={HiShoppingBag} label="Funding">
-                <Sidebar.Item href="#">
-                  <h3 class="text-xl font-semibold text-gray-800">My Proposals</h3>
-                </Sidebar.Item>
+                
                 <Sidebar.Item href="#">
                   <h3 class="text-xl font-semibold text-gray-800">Request For Funding</h3>
                 </Sidebar.Item>
