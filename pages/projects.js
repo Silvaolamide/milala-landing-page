@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-
+import Dboard from '../components/sidebar';
 
 
 
@@ -15,8 +15,8 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800;900&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
-        
-    <section id="Navbar" class="rounded-xl  w-full">
+    <div className="bg-hero-top h-[900px] bg-no-repeat top-10 bg-top-4 bg-50%  ">
+    <section id="Navbar" class="rounded-xl   w-full">
     <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
       <a href="/" class="flex items-center">
@@ -50,17 +50,13 @@ export default function Home() {
     </nav>
     
     </section>
-
-    <div className="bg-hero-top h-[900px] bg-no-repeat bg-top-4 bg-50%  ">
+    < Dboard />
    
+  
         
-    <footer>
- 
-
-          </footer>
-      
+    
     </div>
-
+   
     </>
   )
 }
