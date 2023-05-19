@@ -5,8 +5,8 @@ import dynamic from "next/dynamic";
 const Dboard = () => {
   return (
     <div>
-      <div class="sidebar fixed -ml-10  w-200px mt-20 bg-gray-950 rounded-md p-10">
-        <Sidebar aria-label="Sidebar with multi-level dropdown example">
+      <div class="sidebar fixed ml-10  w-200px mt-20 bg-gray-950 rounded-md p-10">
+        <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
               <Sidebar.Item href="#" icon={HiChartPie}>
