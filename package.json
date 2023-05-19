@@ -10,6 +10,7 @@
     "@types/node": "*",
     "ethers": "^5.7.2",
     "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.4",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

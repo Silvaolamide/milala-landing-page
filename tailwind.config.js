@@ -5,10 +5,12 @@ module.exports = {
   mode: 'jit',
   content: [
     "./node_modules/flowbite/**/*.js",
+    "./pages/**/*.{js,jsx}",
+    "./public/**/*.html",
     // Add other content paths if needed
   ],
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './public/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: {
@@ -51,7 +53,7 @@ module.exports = {
         "medium": "500",
        "extra-bold": "900"
       },
-      ...flowbite.theme, // Add Flowbite classes
+      // Add Flowbite classes
     },
   },
   variants: {
