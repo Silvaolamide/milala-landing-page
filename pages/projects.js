@@ -15,9 +15,9 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800;900&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
-    <div className="bg-hero-top h-[900px] bg-no-repeat top-10 bg-top-4 bg-50%  ">
-    <section id="Navbar" class="rounded-xl   w-full">
-    <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
+
+    <section id="Navbar" class="   w-full">
+    <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-0 left-0 ">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
       <a href="/" class="flex items-center">
           <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-3" alt="Milala Logo" height={20} width={20}></Image>
@@ -50,6 +50,7 @@ export default function Home() {
     </nav>
     
     </section>
+    <div className="bg-hero-top h-[900px] bg-no-repeat top-10 bg-top-4 bg-50%  ">
     < Dboard />
    
   

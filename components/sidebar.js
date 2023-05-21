@@ -3,7 +3,7 @@ import { Sidebar } from 'flowbite-react';
 import { useRouter } from 'next/router';
 import { Flowbite } from 'flowbite-react';
 import {
-  MdAddTask,
+  MdOutlineTune,
   MdAllInclusive,
   MdSettings,
   MdNewLabel,
@@ -61,11 +61,11 @@ const Dboard = () => {
 
   return (
     <div>
-      <div className="sidebar left-0 font-xl fixed ml-4 w-200px rounded-md  mt-20 p-10">
+      <div className="sidebar left-0 font-xl fixed -ml-4 w-200px rounded-xl mt-20 p-10">
         <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
-              <Sidebar.Item href="/" icon={MdAddTask}>
+              <Sidebar.Item href="/" icon={MdOutlineTune}>
                 <h1 className="text-xl font-semibold text-black ml-3 ">Projects Management</h1>
               </Sidebar.Item>
               <Sidebar.Item href="/my-projects" icon={MdAllInclusive}>
