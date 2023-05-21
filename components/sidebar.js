@@ -7,13 +7,14 @@ import {
   MdAllInclusive,
   MdSettings,
   MdNewLabel,
-  FaArrowRight,
-  FaTable,
-  FaCheckCircle,
-  FaMinusCircle,
-  FaPlusCircle,
+   MdAccountBalanceWallet,
+  MdOutlinePayments,
   MdSettingsInputComponent,
-  FaHistory,
+  MdCancelScheduleSend,
+  MdPriceCheck,
+  MdStorage,
+  MdCheck,
+  MdOutlineMonetizationOn
 } from "react-icons/md";
 
 
@@ -78,24 +79,24 @@ const Dboard = () => {
                   <h3 className="text-xl font-semibold text-black ml-3">Update Project Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
-              <Sidebar.Collapse icon={FaCheckCircle} label="Funding">
-                <Sidebar.Item href="/request-funding" icon={FaPlusCircle}>
+              <Sidebar.Collapse icon={MdAccountBalanceWallet} label="Funding">
+                <Sidebar.Item href="/request-funding" icon={MdCancelScheduleSend}>
                   <h3 className="text-xl font-semibold text-black ml-3">Request For Funding</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
-              <Sidebar.Collapse icon={FaMinusCircle} label="Milestones">
-                <Sidebar.Item href="/completed-milestones" icon={FaCheckCircle}>
+              <Sidebar.Collapse icon={MdStorage} label="Milestones">
+                <Sidebar.Item href="/completed-milestones" icon={MdCheck}>
                   <h3 className="text-xl font-semibold text-black ml-3">Completed Milestones</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="/add-milestones" icon={FaPlusCircle}>
+                <Sidebar.Item href="/add-milestones" icon={MdNewLabel}>
                   <h3 className="text-xl font-semibold text-black ml-3 ">Add Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
-              <Sidebar.Collapse icon={FaArrowRight} label="Repayment">
-                <Sidebar.Item href="/repay-milestone" icon={FaCheckCircle}>
+              <Sidebar.Collapse icon={MdPriceCheck} label="Repayment">
+                <Sidebar.Item href="/repay-milestone" icon={MdOutlineMonetizationOn}>
                   <h3 className="text-xl font-semibold text-gray-900 ml-3">Repay Milestone</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="/repayment-history" icon={FaHistory}>
+                <Sidebar.Item href="/repayment-history" icon={MdOutlinePayments}>
                   <h3 className="text-xl font-semibold text-black ml-3">Repayments History</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
