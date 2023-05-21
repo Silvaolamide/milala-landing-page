@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sidebar } from 'flowbite-react';
 import { useRouter } from 'next/router';
+import { Flowbite } from 'flowbite-react';
 import {
   FaChartPie,
   FaShoppingBag,
@@ -57,7 +58,7 @@ const Dboard = () => {
 
   return (
     <div>
-      <div className="sidebar font-lg fixed ml-10 w-200px mt-20 bg-gray-950 rounded-md p-10">
+      <div className="sidebar left-3 font-xl fixed ml-20 w-200px rounded-xl  mt-20 bg-gray-950 p-10">
         <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
