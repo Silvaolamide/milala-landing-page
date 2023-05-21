@@ -13,7 +13,17 @@ import {
   FaEdit,
   FaHistory,
 } from 'react-icons/fa';
+
 import dynamic from "next/dynamic";
+
+import MyProjects from '../pages/MyProjects';
+import AddProject from '../pages/AddProject';
+import UpdateMilestones from '../pages/UpdateMilestones';
+import RequestFunding from '../pages/RequestFunding';
+import CompletedMilestones from '../pages/CompletedMilestones';
+import AddMilestones from '../pages/AddMilestones';
+import RepayMilestone from '../pages/RepayMilestone';
+import RepaymentHistory from '../pages/RepaymentHistory';
 
 const Dboard = () => {
   return (
