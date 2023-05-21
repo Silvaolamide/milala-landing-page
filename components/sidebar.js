@@ -69,7 +69,7 @@ const Dboard = () => {
                 <h3 className="text-xl font-semibold text-black ml-3">My Projects</h3>
               </Sidebar.Item>
               <Sidebar.Collapse icon={FaShoppingBag} label="Projects' Management">
-                <Sidebar.Item href="/add-project" icon={FaPlusCircle}>
+                <Sidebar.Item href="/AddProject" icon={FaPlusCircle}>
                   <h3 className="text-xl font-semibold text-black ml-3">Add Project</h3>
                 </Sidebar.Item>
                 <Sidebar.Item href="/update-milestones" icon={FaEdit}>
