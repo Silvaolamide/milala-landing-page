@@ -37,19 +37,19 @@ const Dboard = () => {
     switch (pathname) {
       case '/':
         return <MyProjects />;
-      case '/add-project':
+      case '/AddProject':
         return <AddProject />;
-      case '/update-milestones':
+      case '/UpdateMilestones':
         return <UpdateMilestones />;
-      case '/request-funding':
+      case '/RequestFunding':
         return <RequestFunding />;
-      case '/completed-milestones':
+      case '/CompletedMilestones':
         return <CompletedMilestones />;
-      case '/add-milestones':
+      case '/AddMilestones':
         return <AddMilestones />;
-      case '/repay-milestone':
+      case '/RepayMilestone':
         return <RepayMilestone />;
-      case '/repayment-history':
+      case '/RepaymentHistory':
         return <RepaymentHistory />;
       default:
         return null;
