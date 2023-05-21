@@ -54,7 +54,7 @@ export default function Home() {
    
   
         
-    
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </div>
    
     </>

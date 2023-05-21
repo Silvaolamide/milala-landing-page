@@ -7,7 +7,7 @@ const MyProjects = () => {
   return (
     <div>
       <h1>My Projects</h1>
-      {/* Add your content here */}
+   
     </div>
   );
 };
