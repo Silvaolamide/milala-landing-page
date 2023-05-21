@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sidebar } from 'flowbite-react';
+import { useRouter } from 'next/router';
 import {
   FaChartPie,
   FaShoppingBag,
@@ -13,8 +14,9 @@ import {
   FaEdit,
   FaHistory,
 } from 'react-icons/fa';
-
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import Link from 'next/link';
 
 import MyProjects from '../pages/MyProjects';
 import AddProject from '../pages/AddProject';
@@ -26,50 +28,80 @@ import RepayMilestone from '../pages/RepayMilestone';
 import RepaymentHistory from '../pages/RepaymentHistory';
 
 const Dboard = () => {
+  const router = useRouter();
+
+  const renderPage = () => {
+    const { pathname } = router;
+
+    switch (pathname) {
+      case '/':
+        return <MyProjects />;
+      case '/add-project':
+        return <AddProject />;
+      case '/update-milestones':
+        return <UpdateMilestones />;
+      case '/request-funding':
+        return <RequestFunding />;
+      case '/completed-milestones':
+        return <CompletedMilestones />;
+      case '/add-milestones':
+        return <AddMilestones />;
+      case '/repay-milestone':
+        return <RepayMilestone />;
+      case '/repayment-history':
+        return <RepaymentHistory />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div>
       <div className="sidebar font-lg fixed ml-10 w-200px mt-20 bg-gray-950 rounded-md p-10">
         <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
-              <Sidebar.Item href="#" icon={FaChartPie}>
-                <h3 className="text-xl font-semibold text-gray-800">Projects Management</h3>
+              <Sidebar.Item href="/" icon={FaChartPie}>
+                <h3 className="text-xl font-semibold text-black ml-3">Projects Management</h3>
               </Sidebar.Item>
-              <Sidebar.Item href="#" icon={FaInbox}>
-                <h3 className="text-xl font-semibold text-gray-800">My Projects</h3>
+              <Sidebar.Item href="/my-projects" icon={FaInbox}>
+                <h3 className="text-xl font-semibold text-black ml-3">My Projects</h3>
               </Sidebar.Item>
               <Sidebar.Collapse icon={FaShoppingBag} label="Projects' Management">
-                <Sidebar.Item href="#" icon={FaPlusCircle}>
-                  <h3 className="text-xl font-semibold text-gray-800">Add Project</h3>
+                <Sidebar.Item href="/add-project" icon={FaPlusCircle}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Add Project</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={FaEdit}>
-                  <h3 className="text-xl font-semibold text-gray-800">Update Project Milestones</h3>
+                <Sidebar.Item href="/update-milestones" icon={FaEdit}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Update Project Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={FaCheckCircle} label="Funding">
-                <Sidebar.Item href="#" icon={FaPlusCircle}>
-                  <h3 className="text-xl font-semibold text-gray-800">Request For Funding</h3>
+                <Sidebar.Item href="/request-funding" icon={FaPlusCircle}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Request For Funding</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={FaMinusCircle} label="Milestones">
-                <Sidebar.Item href="#" icon={FaCheckCircle}>
-                  <h3 className="text-xl font-semibold text-gray-800">Completed Milestones</h3>
+                <Sidebar.Item href="/completed-milestones" icon={FaCheckCircle}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Completed Milestones</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={FaPlusCircle}>
-                  <h3 className="text-xl font-semibold text-gray-800">Add Milestones</h3>
+                <Sidebar.Item href="/add-milestones" icon={FaPlusCircle}>
+                  <h3 className="text-xl font-semibold text-black ml-3 ">Add Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={FaArrowRight} label="Repayment">
-                <Sidebar.Item href="#" icon={FaCheckCircle}>
-                  <h3 className="text-xl font-semibold text-gray-800">Repay Milestone</h3>
+                <Sidebar.Item href="/repay-milestone" icon={FaCheckCircle}>
+                  <h3 className="text-xl font-semibold text-gray-900 ml-3">Repay Milestone</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="#" icon={FaHistory}>
-                  <h3 className="text-xl font-semibold text-gray-800">Repayments History</h3>
+                <Sidebar.Item href="/repayment-history" icon={FaHistory}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Repayments History</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
             </Sidebar.ItemGroup>
           </Sidebar.Items>
         </Sidebar>
+      </div>
+      <div className="content ml-220px">
+        {renderPage()}
       </div>
     </div>
   );
