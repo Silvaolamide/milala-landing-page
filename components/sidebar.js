@@ -3,22 +3,24 @@ import { Sidebar } from 'flowbite-react';
 import { useRouter } from 'next/router';
 import { Flowbite } from 'flowbite-react';
 import {
-  FaChartPie,
-  FaShoppingBag,
-  FaInbox,
-  FaUser,
+  MdAddTask,
+  MdAllInclusive,
+  MdSettings,
+  MdNewLabel,
   FaArrowRight,
   FaTable,
   FaCheckCircle,
   FaMinusCircle,
   FaPlusCircle,
-  FaEdit,
+  MdSettingsInputComponent,
   FaHistory,
-} from 'react-icons/fa';
+} from "react-icons/md";
+
+
+
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-
 import MyProjects from '../pages/MyProjects';
 import AddProject from '../pages/AddProject';
 import UpdateMilestones from '../pages/UpdateMilestones';
@@ -58,21 +60,21 @@ const Dboard = () => {
 
   return (
     <div>
-      <div className="sidebar left-3 font-xl fixed ml-20 w-200px rounded-xl  mt-20 bg-gray-950 p-10">
+      <div className="sidebar left-0 font-xl fixed ml-4 w-200px rounded-md  mt-20 p-10">
         <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
-              <Sidebar.Item href="/" icon={FaChartPie}>
+              <Sidebar.Item href="/" icon={MdAddTask}>
                 <h1 className="text-xl font-semibold text-black ml-3 ">Projects Management</h1>
               </Sidebar.Item>
-              <Sidebar.Item href="/my-projects" icon={FaInbox}>
+              <Sidebar.Item href="/my-projects" icon={MdAllInclusive}>
                 <h3 className="text-xl font-semibold text-black ml-3">My Projects</h3>
               </Sidebar.Item>
-              <Sidebar.Collapse icon={FaShoppingBag} label="Projects' Management">
-                <Sidebar.Item href="/AddProject" icon={FaPlusCircle}>
+              <Sidebar.Collapse icon={MdSettings} label="Projects' Management">
+                <Sidebar.Item href="/AddProject" icon={MdNewLabel}>
                   <h3 className="text-xl font-semibold text-black ml-3">Add Project</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="/update-milestones" icon={FaEdit}>
+                <Sidebar.Item href="/update-milestones" icon={MdSettingsInputComponent}>
                   <h3 className="text-xl font-semibold text-black ml-3">Update Project Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
