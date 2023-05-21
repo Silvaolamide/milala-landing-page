@@ -61,7 +61,7 @@ const Dboard = () => {
 
   return (
     <div>
-      <div className="sidebar left-0 font-xl fixed -ml-4 w-200px rounded-xl mt-20 -pt-10">
+      <div className="sidebar left-0 font-xl fixed -ml-4 w-200px rounded-xl  -pt-20">
         <Sidebar aria-label="">
           <Sidebar.Items>
             <Sidebar.ItemGroup>
