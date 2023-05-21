@@ -63,7 +63,7 @@ const Dboard = () => {
           <Sidebar.Items>
             <Sidebar.ItemGroup>
               <Sidebar.Item href="/" icon={FaChartPie}>
-                <h3 className="text-xl font-semibold text-black ml-3">Projects Management</h3>
+                <h1 className="text-xl font-semibold text-black ml-3 ">Projects Management</h1>
               </Sidebar.Item>
               <Sidebar.Item href="/my-projects" icon={FaInbox}>
                 <h3 className="text-xl font-semibold text-black ml-3">My Projects</h3>
