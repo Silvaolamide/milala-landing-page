@@ -10,7 +10,7 @@ import { HiMail } from 'react-icons/hi';
 import { Select } from 'flowbite-react';
 import { Radio } from 'flowbite-react';
 import { FileInput } from 'flowbite-react';
-
+import { Button } from 'flowbite-react';
 
 const MyProjects = () => {
   return (
@@ -42,7 +42,7 @@ const MyProjects = () => {
   <TextInput
     id="email4"
     type="email"
-    icon={HiMail}
+   
     placeholder="name@gmail.com"
     required={true}
   />
@@ -123,11 +123,6 @@ const MyProjects = () => {
 
 
 
-
-
-
-
-
 <div id="textarea" class="top-20 mt-4 justify-center">
   <div className="mb-2 block">
     <Label
@@ -143,10 +138,22 @@ const MyProjects = () => {
   />
 </div>
 
+<div>
+    <Button gradientMonochrome="teal">
+      Teal
+    </Button>
+  </div>
 
 
 
-
+  <div class="my-5 flex mr-10 ml-10 items-center justify-center">
+    <Link href="/projects">
+  <button class=" mt-2 rounded-lg border-2 border-[#009A9A] bg-[#009A9A] px-6 py-2 font-medium text-white justify-center items-center transition hover:translate-y-1">
+    
+   Submit
+  </button>
+  </Link>
+</div>
 
 
 
