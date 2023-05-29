@@ -230,6 +230,30 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 </div>
 </div>
 
+
+
+
+</div>
+
+<div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex justify-center content-start">    
+<div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+ 
+      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
+    
+      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
+
+      </p>
+      <div class='flex justify-center mt-3'>
+<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+</div>
+</div>
+</div>
+
+
 <div class="rounded-xl shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
@@ -249,8 +273,24 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
 
 
+<div class="rounded-xl shadow-lg bg-white  ">
+      <div class="p-4 flex flex-col">
+        <div class="rounded-xl overflow-hidden">
+          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
+      </div>
+ 
+      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
+    
+      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
+
+      </p>
+      <div class='flex justify-center mt-3'>
+<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+</div>
+</div>
 </div>
 
+</div>
 
 
 
