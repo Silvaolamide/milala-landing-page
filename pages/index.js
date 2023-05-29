@@ -267,7 +267,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
         <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Uamuzi</h5>
         <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">A Social networking platform advocating for youth participation in governance and peacebuilding in Kenya and Africa.</p>
         <div className="flex justify-center mt-3">
-          <a href="https://ab-africanprojects.com/scanpay_demo/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+          <a href="https://uamuzi.org/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
         </div>
       </div>
     </div>
