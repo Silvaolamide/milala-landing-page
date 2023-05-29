@@ -89,7 +89,7 @@ const Dboard = () => {
                   <h3 className="text-xl font-semibold text-black ml-3">Completed Milestones</h3>
                 </Sidebar.Item>
                 <Sidebar.Item href="/add-milestones" icon={MdNewLabel}>
-                  <h3 className="text-xl font-semibold text-black ml-3 ">Add Milestones</h3>
+                  <h3 className="text-xl font-semibold text-black ml-3 ">Update Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={MdPriceCheck} label="Repayment">
