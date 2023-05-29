@@ -73,7 +73,7 @@ export default function Home() {
 
               <div className=" flex flex-col text-[17px] font-bolder my-0  pt-8">
                 <div className="flex flex-col border-red-400 border-l-[1px] pl-4 h-24 justify-center tracking-normal "><span className="inline-block">Milala uses the <span className="text-[#009A9A] ">Blockchain technology</span> to
-help you Support businesses with massive ROI</span>
+help you Support Startupes with massive ROI</span>
                 </div>
                 
               </div>
@@ -81,13 +81,13 @@ help you Support businesses with massive ROI</span>
             <div className="flex font-Inter font-normal text-[13px]">
               <div className="">
               <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                Support a Business
+                Support a Startup
                   </button>
                   
                 </div>
                 <div className="">
                 <button type="button"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5">
-                    List My Business
+                    List My Startup
                   </button>
                 
               </div>
@@ -133,13 +133,13 @@ help you Support businesses with massive ROI</span>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className="">
                       <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                        Support a Business
+                        Support a Startup
                           </button>
                           
                         </div>
                         <div className="">
                         <button type="button"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5">
-                            List My Business
+                            List My Startup
                           </button>
                         
                       </div>
@@ -157,11 +157,11 @@ help you Support businesses with massive ROI</span>
             <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
                 <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
-                          <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Businesses </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
+                          <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Startups </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
                             <div className="">
                             <button type="button"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5">
-                                List My Business
+                                List My Startup
                               </button>
                             
                           </div>
@@ -174,12 +174,12 @@ help you Support businesses with massive ROI</span>
                         </div>
                   </div>
                   
-  <div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex justify-center content-start">    
+  <div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex items-center justify-evenly content-start">    
     
-    <div class="rounded-xl shadow-lg bg-white md:w-max  flex justify-center ">
+    <div class="rounded-xl max-w-xs shadow-lg bg-white md:w-max  flex justify-center ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Loli.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Loli.png" class="h-64 w-full" alt="Startup Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">Loli Creations</h5>
@@ -190,17 +190,17 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
 </div> 
 
 </div>
 </div>
 
 
-<div class="rounded-xl shadow-lg bg-white  ">
+<div class="rounded-xl max-w-xs shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Irrifarm.jpg" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Irrifarm.jpg" class="h-64 w-full" alt="Startup Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">IrriFarm</h5>
@@ -208,16 +208,16 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
-<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3" >View Business</a>
+<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3" >View Startup</a>
 </div>
 
 </div>
 </div>
 
-<div class="rounded-xl shadow-lg bg-white  ">
+<div class="rounded-xl max-w-xs shadow-lg bg-white  ">
       <div class="p-4 flex flex-col">
         <div class="rounded-xl overflow-hidden">
-          <img src="./img/Usafi.png" class="h-64 w-full" alt="Business Image" ></img>
+          <img src="./img/Usafi.png" class="h-64 w-full" alt="Startup Image" ></img>
       </div>
       <div class="flex items-center">
       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">Usafi Sanitation</h5>
@@ -225,72 +225,64 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
+<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
 </div>
 </div>
 </div>
 
 
 
-
-</div>
-
-<div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex justify-center content-start">    
-<div class="rounded-xl shadow-lg bg-white  ">
-      <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
+<div className="container mx-auto">
+  <div className="max-w-xs mx-auto">
+    <div className="rounded-xl shadow-lg bg-white">
+      <div className="p-4 flex flex-col">
+        <div className="rounded-xl overflow-hidden">
+          <img src="./img/Scanpay.jpeg" className="h-64 w-full" alt="Startup Image" />
+        </div>
+        <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain</h5>
+        <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using a Blockchain platform and infrastructure to enable crowdfunding and funding development by the African Diaspora.</p>
+        <div className="flex justify-center mt-3">
+          <a href="https://ab-africanprojects.com/scanpay_demo/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+        </div>
       </div>
- 
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
-    
-      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
-
-      </p>
-      <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
 
-<div class="rounded-xl shadow-lg bg-white  ">
-      <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
+
+
+</div>
+
+
+
+
+<div className="container ">
+  <div className="max-w-xs mx-auto">
+    <div className="rounded-xl shadow-lg -ml-10 bg-white">
+      <div className="p-4 flex flex-col">
+        <div className="rounded-xl overflow-hidden">
+          <img src="./img/Uamuzi.png" className="h-64 w-full" alt="Startup Image" />
+        </div>
+        <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Uamuzi</h5>
+        <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">A Social networking platform advocating for youth participation in governance and peacebuilding in Kenya and Africa.</p>
+        <div className="flex justify-center mt-3">
+          <a href="https://ab-africanprojects.com/scanpay_demo/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+        </div>
       </div>
- 
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
-    
-      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
-
-      </p>
-      <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
 
 
-<div class="rounded-xl shadow-lg bg-white  ">
-      <div class="p-4 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img src="./img/Scanpay.jpeg" class="h-64 w-full" alt="Business Image" ></img>
-      </div>
- 
-      <h5 class="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain </h5>
-    
-      <p class="text-black-500 lg:text-base xl-text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using Blockchain platform and infrastructure to allow crowdfunding and enable African Diaspora in funding development.
 
-      </p>
-      <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/scanpay_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Business</a>
-</div>
-</div>
-</div>
 
-</div>
+
+
+
+
+
 
 
 
@@ -302,12 +294,12 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
                         <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
                           <div className="text-[#009A9A] font-extrabold  ">
                     <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">Support  an African </p>
-                    <p>Business</p>
+                    <p>Startup</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                           
                             <div className=" ">
                             <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-              Support a Business 
+              Support a Startup 
                   </button>
                             
                           </div>
@@ -327,7 +319,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
                     
                   
                     <p>Milala uses the Blockchain technology to
-help you Support businesses and startups with massive ROI </p>
+help you Support Startupes and Startups with massive ROI </p>
                 </div>
                 <div className="flex ">
                 <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
