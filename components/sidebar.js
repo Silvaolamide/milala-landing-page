@@ -75,8 +75,8 @@ const Dboard = () => {
                 <Sidebar.Item href="/AddProject" icon={MdNewLabel}>
                   <h3 className="text-xl font-semibold text-black ml-3">Add Project</h3>
                 </Sidebar.Item>
-                <Sidebar.Item href="/update-milestones" icon={MdSettingsInputComponent}>
-                  <h3 className="text-xl font-semibold text-black ml-3">Update Project Milestones</h3>
+                <Sidebar.Item href="/AddMilestones" icon={MdSettingsInputComponent}>
+                  <h3 className="text-xl font-semibold text-black ml-3">Add Milestones</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={MdAccountBalanceWallet} label="Funding">
