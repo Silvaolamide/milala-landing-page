@@ -80,7 +80,7 @@ const Dboard = () => {
                 </Sidebar.Item>
               </Sidebar.Collapse>
               <Sidebar.Collapse icon={MdAccountBalanceWallet} label="Funding">
-                <Sidebar.Item href="/request-funding" icon={MdCancelScheduleSend}>
+                <Sidebar.Item href="/RequestFunding" icon={MdCancelScheduleSend}>
                   <h3 className="text-xl font-semibold text-black ml-3">Request For Funding</h3>
                 </Sidebar.Item>
               </Sidebar.Collapse>
