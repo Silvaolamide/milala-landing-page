@@ -21,12 +21,12 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Furniture & Leather(USD300)</h2>
           <p class="leading-relaxed">This amount is needed to help procure some of furniture’s needed in your office and to purchase more leather needed in producing more bags.</p>
-          <a class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -37,12 +37,12 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Hiring/Human Resources (USD 420.81)</h2>
           <p class="leading-relaxed">This is an estimated amount we would use to support the payment of workers</p>
-          <a class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -53,12 +53,12 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">20 Sewing Machines(USD1000)</h2>
           <p class="leading-relaxed">Currently, we need to expand production and we would like to buy more sewing machines</p>
-          <a class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
