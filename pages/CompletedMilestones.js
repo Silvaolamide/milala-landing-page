@@ -48,9 +48,7 @@ const MyProjects = () => {
             </svg>
           </Link>
 
-          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 ml-8 inline-flex items-center mt-5">Update Milestone
-          
-          </Link>
+         
 
           <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-blue-600 shadow hover:bg-blue-50"> Update Progress </Link>
         </div>
@@ -69,9 +67,7 @@ const MyProjects = () => {
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </Link>
-          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 ml-8 inline-flex items-center mt-5">Update Milestone
-          
-          </Link>
+         
           <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-blue-600 shadow hover:bg-blue-50"> Update Progress </Link>
         </div>
       </div>
