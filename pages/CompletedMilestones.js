@@ -10,7 +10,7 @@ const MyProjects = () => {
     <>
     
     <section class="text-gray-600 body-font overflow-hidden">
-    <h1 class="font-bold text-xl items-center text-center justify-center mt-3">Completed Milestones</h1>
+    <h1 class="font-bold text-xl items-center text-center justify-center mt-3"> Milestones Status</h1>
   <div class="container px-5 py-24 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -43,6 +43,10 @@ const MyProjects = () => {
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </Link>
+
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 ml-8 inline-flex items-center mt-5">Update Milestone
+          
+          </Link>
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -58,6 +62,9 @@ const MyProjects = () => {
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
+          </Link>
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 ml-8 inline-flex items-center mt-5">Update Milestone
+          
           </Link>
         </div>
       </div>
