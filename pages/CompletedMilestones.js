@@ -20,7 +20,7 @@ const MyProjects = () => {
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Furniture & Leather(USD300)</h2>
-        
+          <div class="mt-35 w-20 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700">Completed</div>
           <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
@@ -36,7 +36,7 @@ const MyProjects = () => {
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Hiring/Human Resources (USD 420.81)</h2>
-
+          <div class="mt-35 w-20 rounded-md bg-blue-100 py-1 text-sm font-medium text-blue-700">In Progress</div>
           <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
@@ -52,7 +52,7 @@ const MyProjects = () => {
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">20 Sewing Machines(USD1000)</h2>
-   
+          <div class="mt-35 w-20 rounded-md bg-blue-100 py-1 text-sm font-medium text-blue-700">In Progress</div>
           <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
