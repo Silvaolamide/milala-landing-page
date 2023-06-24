@@ -16,14 +16,14 @@ import {
 const Menus = [
     {
       id: 2,
-      label: 'My Projects',
+      label: 'Quick glance',
       icon: <MdAllInclusive />,
-      link: '/my-projects',
+      link: '/MyProjects',
       spacing: true,
     },
     {
       id: 3,
-      label: "Projects' Management",
+      label: "My Projects",
       submenus: [
         {
           id: 31,
@@ -67,7 +67,7 @@ const Menus = [
           id: 52,
           label: 'Update Milestones',
           icon: <MdNewLabel />,
-          link: '/add-milestones',
+          link: '/AddMilestones',
         },
       ],
       icon: <MdStorage />,
@@ -81,13 +81,13 @@ const Menus = [
           id: 61,
           label: 'Repay Milestone',
           icon: <MdOutlineMonetizationOn />,
-          link: '/repay-milestone',
+          link: '/RepayMilestone',
         },
         {
           id: 62,
           label: 'Repayments History',
           icon: <MdOutlinePayments />,
-          link: '/repayment-history',
+          link: '/RepaymentHistory',
         },
       ],
     },
