@@ -47,24 +47,28 @@ const DashBoard = () => {
   {Menus.map((menu) => (
     <li
       key={menu.id}
-      className="text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2"
+      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2 ${
+        submenuOpen[menu.id] ? "hover:bg-transparent hover:text-white" : ""
+      }`}
     >
       <div className="flex items-center gap-x-2">
         <span className="text-2xl">{menu.icon}</span>
-        <span className={`text-base ${!open && 'hidden'}`}>{menu.label}</span>
+        <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
         {menu.submenus && open && (
           <BsChevronDown
-            className={`${submenuOpen[menu.id] ? 'rotate-180' : ''} ${open && 'display'}`}
+            className={`${submenuOpen[menu.id] ? "rotate-180" : ""} ${
+              open && "display"
+            }`}
             onClick={() => handleSubmenuToggle(menu.id)}
           />
         )}
       </div>
 
       {menu.submenus && submenuOpen[menu.id] && open && (
-        <ul className="text-white text-sm ml-14">
+        <ul className="text-white text-sm  ml-14">
           {menu.submenus.map((submenu) => (
             <li key={submenu.id}>
-              <span className="inline-block">{submenu.label}</span>
+              <span className="inline-block p-2">{submenu.label}</span>
             </li>
           ))}
         </ul>
@@ -72,6 +76,7 @@ const DashBoard = () => {
     </li>
   ))}
 </ul>
+
 
         </div>
       </div>
