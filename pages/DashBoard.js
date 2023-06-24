@@ -26,84 +26,89 @@ const DashBoard = () => {
     const [activeSubmenu, setActiveSubmenu] = useState(false);
 
     const Menus = [
-              {
-          id: 2,
-          label: 'My Projects',
-          icon: MdAllInclusive,
-          link: '/my-projects',
-          spacing: true,
-        },
         {
-          id: 3,
-          label: "Projects' Management",
-          icon: MdSettings,
-          submenus: [
-            {
-              id: 31,
-              label: 'Add Project',
-              icon: MdNewLabel,
-              link: '/AddProject',
-            },
-            {
-              id: 32,
-              label: 'Add Milestones',
-              icon: MdSettingsInputComponent,
-              link: '/AddMilestones',
-            },
-          ],
-        },
-        {
-          id: 4,
-          label: 'Funding',
-          icon: MdAccountBalanceWallet,
-          submenus: [
-            {
-              id: 41,
-              label: 'Request For Funding',
-              icon: MdCancelScheduleSend,
-              link: '/RequestFunding',
-            },
-          ],
-        },
-        {
-          id: 5,
-          label: 'Milestones',
-          icon: MdStorage,
-          submenus: [
-            {
-              id: 51,
-              label: 'Completed Milestones',
-              icon: MdCheck,
-              link: '/CompletedMilestones',
-            },
-            {
-              id: 52,
-              label: 'Update Milestones',
-              icon: MdNewLabel,
-              link: '/add-milestones',
-            },
-          ],
-        },
-        {
-          id: 6,
-          label: 'Repayment',
-          icon: MdPriceCheck,
-          submenus: [
-            {
-              id: 61,
-              label: 'Repay Milestone',
-              icon: MdOutlineMonetizationOn,
-              link: '/repay-milestone',
-            },
-            {
-              id: 62,
-              label: 'Repayments History',
-              icon: MdOutlinePayments,
-              link: '/repayment-history',
-            },
-          ],
-        },
-      ];
+    id: 2,
+    label: 'My Projects',
+    icon: <MdAllInclusive />,
+    link: '/my-projects',
+    spacing: true,
+    },
+    {
+    id: 3,
+    label: "Projects' Management",
+    submenus: true,
+    icon: <MdSettings />,
+    submenus: [
+      {
+        id: 31,
+        label: 'Add Project',
+        icon: <MdNewLabel />,
+        link: '/AddProject',
+      },
+      {
+        id: 32,
+        label: 'Add Milestones',
+        icon: <MdSettingsInputComponent/>,
+        link: '/AddMilestones',
+      },
+    ],
+    },
+    {
+    id: 4,
+    label: 'Funding',
+    submenus: true,
+    icon: <MdAccountBalanceWallet />,
+    submenus: [
+      {
+        id: 41,
+        label: 'Request For Funding',
+        icon: <MdCancelScheduleSend />,
+        link: '/RequestFunding',
+      },
+    ],
+    },
+    {
+    id: 5,
+    label: 'Milestones',
+    submenus: true,
+    icon: <MdStorage />,
+    submenus: [
+      {
+        id: 51,
+        label: 'Completed Milestones',
+        icon: <MdCheck />,
+        link: '/CompletedMilestones',
+      },
+      {
+        id: 52,
+        label: 'Update Milestones',
+        icon: <MdNewLabel />,
+        link: '/add-milestones',
+      },
+    ],
+    },
+    {
+    id: 6,
+    label: 'Repayment',
+    icon: <MdPriceCheck />,
+    submenus: true,
+    submenus: [
+      {
+        id: 61,
+        label: 'Repay Milestone',
+        icon: <MdOutlineMonetizationOn/>,
+        link: '/repay-milestone',
+      },
+      {
+        id: 62,
+        label: 'Repayments History',
+        icon: <MdOutlinePayments />,
+        link: '/repayment-history',
+      },
+    ],
+    },
+    ];
+    
       
   return (
     <>
@@ -136,26 +141,25 @@ const DashBoard = () => {
       key={menu.id}
       className="text-white text-m flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2"
     >
-      <span>{menu.icon}</span>
+      <span class="text-2xl">{menu.icon}</span>
       <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
 
-      {menu.submenus && (
+      {menu.submenus && open && (
         <BsChevronDown
-          className=""
+          className={`${submenuOpen && "rptate-180"}`}
           onClick={() => setSubmenuOpen(!submenuOpen)}
         />
       )}
 
-      {menu.submenus && submenuOpen && (
-        <ul class="flex-col items-center float-left">
+      {menu.submenus && submenuOpen && open && (
+        <ul class="">
           {menu.submenus.map((submenu) => (
             <li
               key={submenu.id}
-              className={`${activeSubmenu === submenu.id ? 'active' : ''} float-left block`}
-              onClick={() => setActiveSubmenu(submenu.id)}
+              className={`text-white text-sm flex items-center gap-x-4 cursor-pointer p-2 px-5 rounded-md`}
+            
             >
-              <span>{submenu.icon}</span>
-              <span>{submenu.label}</span>
+              {submenu.label}
             </li>
           ))}
         </ul>
