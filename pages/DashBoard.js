@@ -26,14 +26,7 @@ const DashBoard = () => {
     const [activeSubmenu, setActiveSubmenu] = useState(false);
 
     const Menus = [
-        {
-          id: 1,
-          label: 'Projects Management',
-          icon: MdOutlineTune,
-          link: '/',
-          spacing: true,
-        },
-        {
+              {
           id: 2,
           label: 'My Projects',
           icon: MdAllInclusive,
@@ -154,11 +147,11 @@ const DashBoard = () => {
       )}
 
       {menu.submenus && submenuOpen && (
-        <ul>
+        <ul class="flex-col items-center float-left">
           {menu.submenus.map((submenu) => (
             <li
               key={submenu.id}
-              className={`${activeSubmenu === submenu.id ? 'active' : ''} `}
+              className={`${activeSubmenu === submenu.id ? 'active' : ''} float-left block`}
               onClick={() => setActiveSubmenu(submenu.id)}
             >
               <span>{submenu.icon}</span>
