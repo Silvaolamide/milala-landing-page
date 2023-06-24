@@ -62,19 +62,21 @@ const DashBoard = () => {
       </div>
 
       {menu.submenus && submenuOpen[menu.id] && open && (
-        <ul className="text-white text-sm ml-14">
-          {menu.submenus.map((submenu) => (
-            <li key={submenu.id} className="">
-              <div className="flex">
-                <Link href={submenu.link}>
-                  <span className="text-lg flex flex-col gap-y-2 -ml-10">{submenu.icon}</span>
-                 <span class="mt-2"> {submenu.label} </span>
-                </Link>
-              </div>
-            </li>
-          ))}
-        </ul>
-      )}
+  <ul className="text-white text-sm ml-4">
+    {menu.submenus.map((submenu) => (
+      <li key={submenu.id} className="">
+        <div className="flex items-center">
+          <Link href={submenu.link}>
+            <span className="text-lg">{submenu.icon}</span>
+            <span className="ml-2">{submenu.label}</span>
+          </Link>
+        </div>
+      </li>
+    ))}
+  </ul>
+)}
+
+
     </li>
   ))}
 </ul>
