@@ -3,7 +3,7 @@ import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsArrowRightShort, BsFillGearFill, BsSearch } from "react-icons/bs";
+import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from "react-icons/bs";
 import {
     MdOutlineTune,
     MdAllInclusive,
@@ -22,7 +22,9 @@ import {
 
 const DashBoard = () => {
     const [open, setOpen] = useState(true);
+    const [submenuOpen, setSubmenuOpen] = useState(false); 
     const [activeSubmenu, setActiveSubmenu] = useState(false);
+
     const Menus = [
         {
           id: 1,
@@ -135,7 +137,6 @@ const DashBoard = () => {
 
   <input type="search" placeholder="Search" className={`text-sm bg-transparent w-full text-white focus:outline-none focus:ring-0 placeholder:text-white ${!open && "hidden"}`} />
 </div>
-
 <ul>
   {Menus.map((menu) => (
     <li
@@ -144,12 +145,20 @@ const DashBoard = () => {
     >
       <span>{menu.icon}</span>
       <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
+
       {menu.submenus && (
+        <BsChevronDown
+          className=""
+          onClick={() => setSubmenuOpen(!submenuOpen)}
+        />
+      )}
+
+      {menu.submenus && submenuOpen && (
         <ul>
           {menu.submenus.map((submenu) => (
             <li
               key={submenu.id}
-              className={activeSubmenu === submenu.id ? 'active' : ''}
+              className={`${activeSubmenu === submenu.id ? 'active' : ''} `}
               onClick={() => setActiveSubmenu(submenu.id)}
             >
               <span>{submenu.icon}</span>
