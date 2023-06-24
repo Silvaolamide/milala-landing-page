@@ -18,7 +18,7 @@ const DashBoard = () => {
   return (
     <>
       <div className="flex">
-        <div className={`h-screen bg-teal-900 p-5 pt-8 ${open ? 'w-72' : 'w-20'} duration-300 relative`}>
+        <div className={`h-screen bg-teal-900 p-5 pt-8 ${open ? 'w-64' : 'w-20'} duration-300 relative`}>
           <BsArrowRightShort
             className={`bg-white text-teal-950 text-3xl rounded-full absolute ml-3 -right-3 top-8 border border-teal-950 cursor-pointer duration-300 ${
               !open && 'rotate-180'
@@ -47,14 +47,14 @@ const DashBoard = () => {
   {Menus.map((menu) => (
     <li
       key={menu.id}
-      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 ${
+      className={`text-white text-m flex flex-col gap-y-1 cursor-pointer p-2 ${
         submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg"
       } mt-2`}
       
     >
       <div className="flex items-center gap-x-2">
         <span className="text-2xl">{menu.icon}</span>
-        <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
+        <span className={`text-md ${!open && "hidden"}`}>{menu.label}</span>
         {menu.submenus && open && (
           <BsChevronDown
             className={`${submenuOpen[menu.id] ? "rotate-180" : ""} ${
