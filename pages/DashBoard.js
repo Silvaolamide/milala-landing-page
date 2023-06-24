@@ -22,6 +22,7 @@ import {
 
 const DashBoard = () => {
     const [open, setOpen] = useState(true);
+    const [activeSubmenu, setActiveSubmenu] = useState(false);
     const Menus = [
         {
           id: 1,
@@ -135,7 +136,6 @@ const DashBoard = () => {
   <input type="search" placeholder="Search" className={`text-sm bg-transparent w-full text-white focus:outline-none focus:ring-0 placeholder:text-white ${!open && "hidden"}`} />
 </div>
 
-
 <ul>
   {Menus.map((menu) => (
     <li
@@ -143,7 +143,21 @@ const DashBoard = () => {
       className="text-white text-m flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2"
     >
       <span>{menu.icon}</span>
-      <span class={`text-base ${!open && "hidden"}`}>{menu.label}</span>
+      <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
+      {menu.submenus && (
+        <ul>
+          {menu.submenus.map((submenu) => (
+            <li
+              key={submenu.id}
+              className={activeSubmenu === submenu.id ? 'active' : ''}
+              onClick={() => setActiveSubmenu(submenu.id)}
+            >
+              <span>{submenu.icon}</span>
+              <span>{submenu.label}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </li>
   ))}
 </ul>
