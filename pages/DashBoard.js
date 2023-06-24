@@ -51,7 +51,7 @@ const DashBoard = () => {
       } mt-2`}
     >
       <div className="flex items-center gap-x-2">
-        <span className="text-2xl">{menu.icon}</span>
+        <span className="text-3xl">{menu.icon}</span>
         <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
         {menu.submenus && open && (
           <BsChevronDown
