@@ -19,7 +19,7 @@ import {
     MdOutlineMonetizationOn
   } from "react-icons/md";
 
-  
+
 const DashBoard = () => {
     const [open, setOpen] = useState(true);
 
@@ -137,8 +137,13 @@ const DashBoard = () => {
 
 
 <ul>
-
+  {Menus.map((menu) => (
+    <li key={menu.id} className="text-white">
+      <span>{menu.label}</span>
+    </li>
+  ))}
 </ul>
+
 
 </div>
 
