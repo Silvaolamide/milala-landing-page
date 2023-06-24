@@ -42,8 +42,7 @@ const DashBoard = () => {
               className={`text-sm bg-transparent w-full text-white focus:outline-none focus:ring-0 placeholder:text-white ${!open && 'hidden'}`}
             />
           </div>
-
-<ul>
+          <ul>
   {Menus.map((menu) => (
     <li
       key={menu.id}
@@ -65,10 +64,13 @@ const DashBoard = () => {
       {menu.submenus && submenuOpen[menu.id] && open && (
         <ul className="text-white text-sm ml-14">
           {menu.submenus.map((submenu) => (
-            <li key={submenu.id} class="p-2">
-              <Link href={submenu.link} >
-          {submenu.label}
-              </Link>
+            <li key={submenu.id} className="">
+              <div className="flex">
+                <Link href={submenu.link}>
+                  <span className="text-lg flex flex-col gap-y-2 -ml-10">{submenu.icon}</span>
+                 <span class="mt-2"> {submenu.label} </span>
+                </Link>
+              </div>
             </li>
           ))}
         </ul>
