@@ -20,8 +20,11 @@ const DashBoard = () => {
   onClick={() => setOpen (!open)}
    /> 
 <div class="inline-flex -pt-3">
-<BsFillGearFill class={`bg-white mr-2 text-4xl text-teal-950 border rounded-full cursor-pointer block float-left duration-500 ${open && "rotate-[360deg]"}`}
+<BsFillGearFill class={`bg-white mr-2 text-3xl text-teal-950 border rounded-full cursor-pointer block float-left duration-500 ${open && "rotate-[360deg]"}`}
 />
+<h1 class={` text-white font-bold text-2xl duration-300 -mt-1 ml-2 ${!open && "scale-0"}       `}> 
+    Milala
+</h1>
 </div>
 
 
