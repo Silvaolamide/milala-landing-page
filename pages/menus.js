@@ -59,7 +59,7 @@ const Menus = [
       submenus: [
         {
           id: 51,
-          label: 'Completed Milestones',
+          label: 'Milestones Status',
           icon: <MdCheck />,
           link: '/CompletedMilestones',
         },

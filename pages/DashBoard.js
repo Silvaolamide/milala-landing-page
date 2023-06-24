@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from './menus.js';
-
+import Link from "next/link";
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
@@ -43,33 +43,32 @@ const DashBoard = () => {
             />
           </div>
 
-          <ul>
+<ul>
   {Menus.map((menu) => (
     <li
       key={menu.id}
-      className={`text-white text-m flex flex-col gap-y-1 cursor-pointer p-2 ${
-        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:bg-opacity-30 hover:backdrop-filter hover:backdrop-blur-lg hover:text-white hover:rounded-lg"
+      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 ${
+        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg"
       } mt-2`}
-      
     >
       <div className="flex items-center gap-x-2">
         <span className="text-2xl">{menu.icon}</span>
-        <span className={`text-md ${!open && "hidden"}`}>{menu.label}</span>
+        <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
         {menu.submenus && open && (
           <BsChevronDown
-            className={`${submenuOpen[menu.id] ? "rotate-180" : ""} ${
-              open && "display"
-            }`}
+            className={`${submenuOpen[menu.id] ? "rotate-180" : ""} ${open && "display"}`}
             onClick={() => handleSubmenuToggle(menu.id)}
           />
         )}
       </div>
 
       {menu.submenus && submenuOpen[menu.id] && open && (
-        <ul className="text-white text-sm  ml-14">
+        <ul className="text-white text-sm ml-14">
           {menu.submenus.map((submenu) => (
-            <li key={submenu.id}>
-              <span className="inline-block p-2">{submenu.label}</span>
+            <li key={submenu.id} class="p-2">
+              <Link href={submenu.link} >
+          {submenu.label}
+              </Link>
             </li>
           ))}
         </ul>
