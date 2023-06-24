@@ -2,7 +2,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsArrowRightShort, BsFillGearFill } from "react-icons/bs";
+import { BsArrowRightShort, BsFillGearFill, BsSearch } from "react-icons/bs";
 import { useState } from 'react';
 
 const DashBoard = () => {
@@ -10,6 +10,7 @@ const DashBoard = () => {
 
   return (
     <>
+
 <div class="flex">
   <div class={`h-screen bg-teal-900 p-5 pt-8 ${open ? "w-64" : "w-20"} duration-300 relative`}>
 
@@ -27,13 +28,12 @@ const DashBoard = () => {
 </h1>
 </div>
 
+<div class={`flex items-center rounded-md bg-[#FFFFF7] mt-6  ${!open ? "px-2.5" : "px-4"}  py-2`}>
+<BsSearch class={` text-teal-500 text-lg block float-left cursor-pointer ${open && "mr-2"}`} />
 
-    </div>    
-  
-      <div class="p-7">
-        <h1 class="text-2xl font-semibold">Homepage</h1>
-      </div>
-     
+<input type={"search"} placeholder='Search' class={`text-base bg-transparent w-full  text-white focus:outline-none ${!open && "hidden"}`}/>
+</div>
+   
 
 </div>
 
@@ -65,7 +65,7 @@ const DashBoard = () => {
 
 
 
-
+</div>
 
 </>
 
