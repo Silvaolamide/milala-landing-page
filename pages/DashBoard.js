@@ -47,9 +47,10 @@ const DashBoard = () => {
   {Menus.map((menu) => (
     <li
       key={menu.id}
-      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2 ${
-        submenuOpen[menu.id] ? "hover:bg-transparent hover:text-white" : ""
-      }`}
+      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 ${
+        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg"
+      } mt-2`}
+      
     >
       <div className="flex items-center gap-x-2">
         <span className="text-2xl">{menu.icon}</span>
