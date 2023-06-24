@@ -138,7 +138,7 @@ const DashBoard = () => {
 
 <ul>
   {Menus.map((menu) => (
-    <li key={menu.id} className="text-white">
+    <li key={menu.id} className="text-white text-m flex items-center gap-x-4 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg">
       <span>{menu.label}</span>
     </li>
   ))}
