@@ -38,6 +38,7 @@ module.exports = {
       },
       colors: {
         'my-orange': '#F57B00',
+        'milala-teal': '#009A9A'
        },
        fontFamily: {
         'sans': ['ui-sans-serif', 'system-ui', 'Inter', 

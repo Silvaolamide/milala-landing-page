@@ -9,7 +9,7 @@ const MyProjects = () => {
   return (
     <>
     
-    <section class="text-gray-600 body-font overflow-hidden">
+    <section class="text-gray-600 font-inter font-bold overflow-hidden">
     <h1 class="font-bold text-xl items-center text-center justify-center mt-3"> Milestones Status</h1>
   <div class="container px-5 py-24 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
@@ -21,18 +21,18 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Furniture & Leather(USD300)</h2>
           <div class="flex">
-  <div class="mt-35 w-20 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700 mr-2">Completed</div>
-  <div class="mt-35 w-20 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700">Funded</div>
+  <div class="mt-35 w-20 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700 mr-2">Completed</div>
+  <div class="mt-35 w-20 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700">Funded</div>
 </div>
 
-          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-teal-600 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </Link>
           
-<Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-blue-600 shadow hover:bg-blue-50"> Update Progress </Link>
+<Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-teal-700 shadow hover:bg-blue-50"> Update Progress </Link>
  
 
         </div>
@@ -45,11 +45,11 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Hiring/Human Resources (USD 420.81)</h2>
           <div class="flex">
-  <div class="mt-35 w-24 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700 mr-2">In Progress</div>
-  <div class="mt-35 w-24 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700">Funded</div>
+  <div class="mt-35 w-24 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700 mr-2">In Progress</div>
+  <div class="mt-35 w-24 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700">Funded</div>
 </div>
 
-          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-teal-600 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
@@ -58,7 +58,7 @@ const MyProjects = () => {
 
          
 
-          <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-blue-600 shadow hover:bg-blue-50"> Update Progress </Link>
+          <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-teal-700 shadow hover:bg-blue-50"> Update Progress </Link>
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -69,17 +69,17 @@ const MyProjects = () => {
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">20 Sewing Machines(USD1000)</h2>
           <div class="flex">
-  <div class="mt-35 w-26 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700 mr-2">In Progress</div>
-  <div class="mt-35 w-26 rounded-md bg-blue-100 px-2 py-1 text-sm font-medium text-blue-700">Request Submitted</div>
+  <div class="mt-35 w-26 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700 mr-2">In Progress</div>
+  <div class="mt-35 w-26 rounded-md bg-teal-100 px-2 py-1 text-sm font-medium text-teal-700">Request Submitted</div>
 </div>
-          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-indigo-500 inline-flex items-center mt-4">Request Funding
+          <Link href="https://www.tally.xyz/gov/Milala-DAO-3/proposal/create" class="text-teal-600 inline-flex items-center mt-4">Request Funding
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </Link>
          
-          <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-blue-600 shadow hover:bg-blue-50"> Update Progress </Link>
+          <Link href="#" class="m-2 inline-flex items-center ml-3 justify-center rounded-xl border bg-white px-5 py-3 font-medium text-teal-700 shadow hover:bg-blue-50"> Update Progress </Link>
         </div>
       </div>
     </div>
