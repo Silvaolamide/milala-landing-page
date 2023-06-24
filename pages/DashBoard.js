@@ -48,7 +48,7 @@ const DashBoard = () => {
     <li
       key={menu.id}
       className={`text-white text-m flex flex-col gap-y-1 cursor-pointer p-2 ${
-        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg"
+        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:bg-opacity-30 hover:backdrop-filter hover:backdrop-blur-lg hover:text-white hover:rounded-lg"
       } mt-2`}
       
     >
