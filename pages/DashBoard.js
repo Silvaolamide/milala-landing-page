@@ -28,12 +28,12 @@ const DashBoard = () => {
 </h1>
 </div>
 
-<div class={`flex items-center rounded-md bg-[#FFFFF7] mt-6  ${!open ? "px-2.5" : "px-4"}  py-2`}>
-<BsSearch class={` text-teal-500 text-lg block float-left cursor-pointer ${open && "mr-2"}`} />
+<div className={`flex items-center rounded-md bg-[#FFFFF7] mt-6 ${!open ? "px-2.5" : "px-4"} py-2 bg-opacity-30 backdrop-filter backdrop-blur-lg`}>
+  <BsSearch className={`text-white text-xl block float-left cursor-pointer ${open && "mr-2"}`} />
 
-<input type={"search"} placeholder='Search' class={`text-base bg-transparent w-full  text-white focus:outline-none ${!open && "hidden"}`}/>
+  <input type="search" placeholder="Search" className={`text-sm bg-transparent w-full text-white focus:outline-none focus:ring-0 placeholder:text-white ${!open && "hidden"}`} />
 </div>
-   
+
 
 </div>
 
