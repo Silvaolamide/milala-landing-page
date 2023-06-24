@@ -4,7 +4,6 @@ import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'reac
 import Menus from './menus.js';
 
 
-
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
   const [submenuOpen, setSubmenuOpen] = useState({});
@@ -45,33 +44,35 @@ const DashBoard = () => {
           </div>
 
           <ul>
-            {Menus.map((menu) => (
-              <li
-                key={menu.id}
-                className="text-white text-m flex items-center gap-x-2 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2"
-              >
-                <span className="text-2xl">{menu.icon}</span>
-                <span className={`text-base ${!open && 'hidden'}`}>{menu.label}</span>
+  {Menus.map((menu) => (
+    <li
+      key={menu.id}
+      className="text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg mt-2"
+    >
+      <div className="flex items-center gap-x-2">
+        <span className="text-2xl">{menu.icon}</span>
+        <span className={`text-base ${!open && 'hidden'}`}>{menu.label}</span>
+        {menu.submenus && open && (
+          <BsChevronDown
+            className={`${submenuOpen[menu.id] ? 'rotate-180' : ''} ${open && 'display'}`}
+            onClick={() => handleSubmenuToggle(menu.id)}
+          />
+        )}
+      </div>
 
-                {menu.submenus && open && (
-                  <BsChevronDown
-                    className={`${submenuOpen[menu.id] ? 'rotate-180' : ''} ${open && 'display'}`}
-                    onClick={() => handleSubmenuToggle(menu.id)}
-                  />
-                )}
+      {menu.submenus && submenuOpen[menu.id] && open && (
+        <ul className="text-white text-sm ml-14">
+          {menu.submenus.map((submenu) => (
+            <li key={submenu.id}>
+              <span className="inline-block">{submenu.label}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  ))}
+</ul>
 
-                {menu.submenus && submenuOpen[menu.id] && open && (
-                  <ul className={`text-white text-sm flex items-start gap-x-2 cursor-pointer p-2 px-2 rounded-md`}>
-                    {menu.submenus.map((submenu) => (
-                      <li key={submenu.id}>
-                        <span className="inline-block">{submenu.label}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </>
