@@ -65,9 +65,9 @@ const DashBoard = () => {
   <ul className="text-white text-sm ml-4">
     {menu.submenus.map((submenu) => (
       <li key={submenu.id} className="">
-        <div className="flex items-center">
+        <div className="flex p-2 items-center">
           <Link href={submenu.link}>
-            <span className="text-md">{submenu.icon}</span>
+          
             {submenu.label}
           </Link>
         </div>
