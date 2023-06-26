@@ -93,4 +93,4 @@ const Menus = [
     },
   ];
 
-export default Menus;
+  export default dynamic(() => Promise.resolve(Menus), { ssr: false });
