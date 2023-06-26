@@ -67,7 +67,7 @@ const DashBoard = () => {
       <li key={submenu.id} className="">
         <div className="flex items-center">
           <Link href={submenu.link}>
-            <span className="text-md">{submenu.icon}</span>
+            
             {submenu.label}
           </Link>
         </div>
