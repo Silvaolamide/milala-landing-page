@@ -67,7 +67,11 @@ const DashBoard = () => {
       <li key={submenu.id} className="">
         <div className="flex p-2 items-center">
           <Link href={submenu.link}>
+<<<<<<< HEAD
           
+=======
+            
+>>>>>>> 1e0919cd96f34df654964a1f5504854e1c8a07d5
             {submenu.label}
           </Link>
         </div>
