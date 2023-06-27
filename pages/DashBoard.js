@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'react-icons/bs';
-import Menus from './menus.js';
+import Menus from '../components/menuItems';
 import Link from 'next/link';
 
 const DashBoard = () => {
@@ -82,4 +82,4 @@ const DashBoard = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(DashBoard), { ssr: false });
+export default DashBoard;
