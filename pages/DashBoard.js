@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from './menus.js';
-import Link from "next/link";
+import Link from 'next/link';
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
@@ -42,50 +42,40 @@ const DashBoard = () => {
               className={`text-sm bg-transparent w-full text-white focus:outline-none focus:ring-0 placeholder:text-white ${!open && 'hidden'}`}
             />
           </div>
+
           <ul>
-  {Menus.map((menu) => (
-    <li
-      key={menu.id}
-      className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 ${
-        submenuOpen[menu.id] ? "" : "hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg"
-      } mt-2`}
-    >
-      <div className="flex items-center gap-x-2">
-        <span className="text-3xl">{menu.icon}</span>
-        <span className={`text-base ${!open && "hidden"}`}>{menu.label}</span>
-        {menu.submenus && open && (
-          <BsChevronDown
-            className={`${submenuOpen[menu.id] ? "rotate-180" : ""} ${open && "display"}`}
-            onClick={() => handleSubmenuToggle(menu.id)}
-          />
-        )}
-      </div>
+            {Menus.map((menu) => (
+              <li
+                key={menu.id}
+                className={`text-white text-m flex flex-col gap-y-2 cursor-pointer p-2 ${
+                  submenuOpen[menu.id] ? '' : 'hover:bg-slate-300 hover:text-teal-900 hover:rounded-lg'
+                } mt-2`}
+              >
+                <div className="flex items-center gap-x-2">
+                  <span className="text-3xl">{menu.icon}</span>
+                  <span className={`text-base ${!open && 'hidden'}`}>{menu.label}</span>
+                  {menu.submenus && open && (
+                    <BsChevronDown
+                      className={`${submenuOpen[menu.id] ? 'rotate-180' : ''} ${open && 'display'}`}
+                      onClick={() => handleSubmenuToggle(menu.id)}
+                    />
+                  )}
+                </div>
 
-      {menu.submenus && submenuOpen[menu.id] && open && (
-  <ul className="text-white text-sm ml-4">
-    {menu.submenus.map((submenu) => (
-      <li key={submenu.id} className="">
-        <div className="flex p-2 items-center">
-          <Link href={submenu.link}>
-<<<<<<< HEAD
-          
-=======
-            
->>>>>>> 1e0919cd96f34df654964a1f5504854e1c8a07d5
-            {submenu.label}
-          </Link>
-        </div>
-      </li>
-    ))}
-  </ul>
-)}
-
-
-    </li>
-  ))}
-</ul>
-
-
+                {menu.submenus && submenuOpen[menu.id] && open && (
+                  <ul className="text-white text-sm ml-4">
+                    {menu.submenus.map((submenu) => (
+                      <li key={submenu.id} className="">
+                        <div className="flex p-2 items-center">
+                          <Link href={submenu.link}>{submenu.label}</Link>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </>
