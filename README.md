@@ -36,6 +36,6 @@ The Licensee may not distribute, sell, or provide access to the software to any 
 
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL AUSPICIOUS AGILE AND BLOCKCHAIN PTE. OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-This License shall be governed by and construed in accordance with the laws of [Singapore]. Any disputes arising under or in connection with this License shall be subject to the exclusive jurisdiction of the courts of [Singapore].
+This License shall be governed by and construed in accordance with the laws of [Singapore]. Any disputes arising under or in connection with this License shall be subject to the exclusive jurisdiction of the courts of Singapore.
 
-© [2023] Auspicious Agile and Blockchain Pte. All Rights Reserved.
+© 2023 Auspicious Agile and Blockchain Pte. All Rights Reserved.
