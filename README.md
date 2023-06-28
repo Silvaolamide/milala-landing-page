@@ -5,9 +5,8 @@ Milala is a platform dedicated to supporting African startups in Africa and the 
 ## Features
 
 - **Support a Startup**: Find and support African startups that align with your interests and investment goals.
-- **List My Startup**: Showcase your own startup on Milala and attract potential investors.
-- **Milala-Hero**: Discover the success stories of startups that have benefited from Milala's support.
-- **Easy Investing**: Invest in African startups hassle-free, regardless of your location.
+- **List Your Startup**: Showcase your own startup on Milala and attract potential investors.
+- **Easy Investing**: Invest in African startups hassle-free, Through Blockchain.
 
 ## Getting Started
 
