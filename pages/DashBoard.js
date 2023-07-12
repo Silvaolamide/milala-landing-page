@@ -36,10 +36,10 @@ const DashBoard = () => {
             >
               <Image
                 src="/img/milala-logo.svg"
-                className="h-10 w-10  mr-2 "
+                className="h-10 w-10 "
                 alt="Milala Logo"
-                height={20}
-                width={20}
+                height={10}
+                width={10}
               />
             </div>
             <h1 className={`text-white font-bold text-2xl duration-300 -mt-1 ml-2 ${!open && 'scale-0'}`}>Milala</h1>

@@ -7,6 +7,8 @@ import DashBoard from './DashBoard';
 
 const commonLayout = ({ children }) => {
   return (
+    <>
+
     <div>
      <section id="Navbar" class="rounded-xl   w-full">
     <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
@@ -43,8 +45,10 @@ const commonLayout = ({ children }) => {
   
     </section>
   
-    <DashBoard />
+   
     </div>
+    <DashBoard />
+    </>
   );
 };
 
