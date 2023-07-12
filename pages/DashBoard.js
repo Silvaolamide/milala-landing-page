@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import dynamic from 'next/dynamic';
-import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'react-icons/bs';
+import { BsArrowRightShort, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from '../components/menuItems';
-import Link from 'next/link';
-import sideBar from '../components/sidebar';
+import { Link, Switch } from 'react-router-dom';
 import Image from 'next/image';
-
+import Routes from './Routes';
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
@@ -28,11 +26,11 @@ const DashBoard = () => {
             }`}
             onClick={() => setOpen(!open)}
           />
-         <div className="inline-flex -pt-3">
+          <div className="inline-flex -pt-3">
             <div
-             className={`bg-white mr-2 text-3xl text-teal-950 rounded-full cursor-pointer block float-left duration-500 ${
-              open && 'rotate-[360deg]'
-            }`}
+              className={`bg-white mr-2 text-3xl text-teal-950 rounded-full cursor-pointer block float-left duration-500 ${
+                open && 'rotate-[360deg]'
+              }`}
             >
               <Image
                 src="/img/milala-logo.svg"
@@ -77,7 +75,7 @@ const DashBoard = () => {
                     {menu.submenus.map((submenu) => (
                       <li key={submenu.id} className="">
                         <div className="flex p-2 items-center">
-                          <Link href={submenu.link}>{submenu.label}</Link>
+                          <Link to={submenu.link}>{submenu.label}</Link>
                         </div>
                       </li>
                     ))}
@@ -87,10 +85,16 @@ const DashBoard = () => {
             ))}
           </ul>
         </div>
+        <div className="content ml-220px">
+          <Switch>
+            <Routes />
+          </Switch>
+        </div>
       </div>
-      <sideBar />
     </>
   );
 };
+
+
 
 export default DashBoard;
