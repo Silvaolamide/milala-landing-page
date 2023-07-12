@@ -3,6 +3,9 @@ import dynamic from 'next/dynamic';
 import { BsArrowRightShort, BsFillGearFill, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from '../components/menuItems';
 import Link from 'next/link';
+import sideBar from '../components/sidebar';
+import Image from 'next/image';
+
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
@@ -25,15 +28,22 @@ const DashBoard = () => {
             }`}
             onClick={() => setOpen(!open)}
           />
-          <div className="inline-flex -pt-3">
-            <BsFillGearFill
-              className={`bg-white mr-2 text-3xl text-teal-950 border rounded-full cursor-pointer block float-left duration-500 ${
-                open && 'rotate-[360deg]'
-              }`}
-            />
+         <div className="inline-flex -pt-3">
+            <div
+             className={`bg-white mr-2 text-3xl text-teal-950 rounded-full cursor-pointer block float-left duration-500 ${
+              open && 'rotate-[360deg]'
+            }`}
+            >
+              <Image
+                src="/img/milala-logo.svg"
+                className="h-10 w-10  mr-2 "
+                alt="Milala Logo"
+                height={20}
+                width={20}
+              />
+            </div>
             <h1 className={`text-white font-bold text-2xl duration-300 -mt-1 ml-2 ${!open && 'scale-0'}`}>Milala</h1>
           </div>
-
           <div className={`flex items-center rounded-md bg-[#FFFFF7] mt-6 ${!open ? 'px-2.5' : 'px-4'} py-2 bg-opacity-30 backdrop-filter backdrop-blur-lg`}>
             <BsSearch className={`text-white text-xl block float-left cursor-pointer ${open && 'mr-2'}`} />
             <input
@@ -78,6 +88,7 @@ const DashBoard = () => {
           </ul>
         </div>
       </div>
+      <sideBar />
     </>
   );
 };

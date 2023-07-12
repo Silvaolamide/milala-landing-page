@@ -2,6 +2,8 @@ import React from 'react';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
+import sideBar from '../components/sidebar';
+import DashBoard from './DashBoard';
 
 const commonLayout = ({ children }) => {
   return (
@@ -38,9 +40,10 @@ const commonLayout = ({ children }) => {
       </div>
       </div>
     </nav>
-    
+  
     </section>
-      <div className="content ml-220px">{children}</div>
+  
+    <DashBoard />
     </div>
   );
 };
