@@ -3,7 +3,7 @@ import { BsArrowRightShort, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from '../components/menuItems';
 import { Link, Switch } from 'react-router-dom';
 import Image from 'next/image';
-import Routes from './Routes';
+
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
@@ -85,11 +85,7 @@ const DashBoard = () => {
             ))}
           </ul>
         </div>
-        <div className="content ml-220px">
-          <Switch>
-            <Routes />
-          </Switch>
-        </div>
+      
       </div>
     </>
   );
