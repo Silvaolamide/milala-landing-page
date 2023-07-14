@@ -2,13 +2,13 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import DashBoard from './DashBoard';
 
 
 const MyProjects = () => {
   return (
     <>
-    
+<DashBoard>
     <section class="text-gray-600 body-font overflow-hidden">
     <h1 class="font-bold text-xl items-center text-center justify-center mt-3">Request For Funding</h1>
   <div class="container px-5 py-24 mx-auto">
@@ -64,6 +64,8 @@ const MyProjects = () => {
     </div>
   </div>
 </section>
+
+</DashBoard>
 
 </>
   );

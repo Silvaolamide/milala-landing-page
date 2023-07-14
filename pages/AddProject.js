@@ -11,9 +11,13 @@ import { Select } from 'flowbite-react';
 import { Radio } from 'flowbite-react';
 import { FileInput } from 'flowbite-react';
 import { Button } from 'flowbite-react';
+import DashBoard from './DashBoard';
 
 const MyProjects = () => {
   return (
+    <>
+    <DashBoard>
+
     <div class="ml-20 mr-20 mt-4 justify-center">
 
 
@@ -169,6 +173,9 @@ const MyProjects = () => {
 
 
     </div>
+
+    </DashBoard>
+    </>
   );
 };
 

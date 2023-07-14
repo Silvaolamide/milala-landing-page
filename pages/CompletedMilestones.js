@@ -2,16 +2,16 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import DashBoard from './DashBoard';
 
 
 const MyProjects = () => {
   return (
     <>
-    
+    <DashBoard>
     <section class="text-gray-600 font-inter font-bold overflow-hidden">
-    <h1 class="font-bold text-xl items-center text-center justify-center mt-3"> Milestones Status</h1>
-  <div class="container px-5 py-24 mx-auto">
+    <h1 class="font-bold text-xl items-center text-center justify-center m- 3"> Milestones Status</h1>
+  <div class="container px-5 py-10 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -86,6 +86,7 @@ const MyProjects = () => {
   </div>
 </section>
 
+</DashBoard>
 </>
   );
 };
