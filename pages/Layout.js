@@ -23,7 +23,7 @@ const Sidebar = ({ children }) => {
      
       <div className="flex ">
       <section id="Navbar" class="rounded-xl fixed top-0 w-full">
-    <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
+    <nav class="rounded-xl bg-white fixed w-10/12 -mt-3 top-4 lg:left-28  right-3 left-3 ">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
       <Link href="/" class="flex items-center">
           <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-3" alt="Milala Logo" height={20} width={20}></Image>
