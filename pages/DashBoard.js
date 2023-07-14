@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { BsArrowRightShort, BsSearch, BsChevronDown } from 'react-icons/bs';
 import Menus from '../components/menuItems';
-import { Link, Switch } from 'react-router-dom';
 import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 
 const DashBoard = () => {
   const [open, setOpen] = useState(true);
   const [submenuOpen, setSubmenuOpen] = useState({});
+  const router = useRouter();
 
   const handleSubmenuToggle = (menuId) => {
     setSubmenuOpen((prevState) => ({
@@ -75,7 +75,7 @@ const DashBoard = () => {
                     {menu.submenus.map((submenu) => (
                       <li key={submenu.id} className="">
                         <div className="flex p-2 items-center">
-                          <Link to={submenu.link}>{submenu.label}</Link>
+                          <a onClick={() => router.push(submenu.link)}>{submenu.label}</a>
                         </div>
                       </li>
                     ))}
@@ -90,7 +90,5 @@ const DashBoard = () => {
     </>
   );
 };
-
-
 
 export default DashBoard;
