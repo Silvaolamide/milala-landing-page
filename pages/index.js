@@ -17,13 +17,13 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
     </head>
         
-    <section id="Navbar" class="rounded-xl  w-full">
+    <section id="Navbar" class="rounded-xl fixed top-0 w-full">
     <nav class="rounded-xl bg-white fixed w- -mt-3 top-4 right-3 left-3 ">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
-      <a href="/" class="flex items-center">
+      <Link href="/" class="flex items-center">
           <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-3" alt="Milala Logo" height={20} width={20}></Image>
           <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl font-semibold whitespace-nowrap ">Milala</span>
-      </a>
+      </Link>
       <div class="flex md:order-2">
           <div class="text-gray text-sm px-4 py-2 text-center mr-3 md:mr-0 "> <ConnectButton >  </ConnectButton> </div>
           <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
@@ -34,16 +34,19 @@ export default function Home() {
       <div class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+            <Link href="#" class="block py-2 pl-3 pr-4 text-gray bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</Link>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Investors</Link>
           </li>
           <li>
-            <a href="/projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+            <Link href="/DashBoard" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Founders</Link>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 ">Contact</a>
+            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 ">Contact Us</Link>
+          </li>
+          <li>
+            <Link href="#Recents" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-transparent md:hover:bg-transparent md:p-0 ">Projects</Link>
           </li>
         </ul>
       </div>
@@ -154,7 +157,7 @@ help you Support Startupes with massive ROI</span>
             </div>
            
 
-            <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
+            <div id="Recents" className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
                 <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter"> 
                         <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
                           <span className="text-[#009A9A] font-extrabold"><p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">Recent Startups </p><p>Listed on Milala</p> <div className="flex font-Inter font-normal text-[13px] mt-5">
@@ -190,7 +193,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
 
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+<Link href ="https://ab-africanprojects.com/loli-creations_demo/"   class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</Link>
 </div> 
 
 </div>
@@ -208,7 +211,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">We are an organization that was established with an aim of helping farmers in Arid and Semi-Arid areas and other areas that lack enough water to favor farming. 
       </p>
       <div class='flex justify-center mt-6'>
-<a href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3" >View Startup</a>
+<Link href ="https://ab-africanprojects.com/irrifarm_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3" >View Startup</Link>
 </div>
 
 </div>
@@ -225,7 +228,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
       <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3"> Our vision is to improve sanitation, enhance lives and improve human dignity and eliminate sanitation challenges by ensuring people  access  proper sanitation by providing Eco Friendly sanitation solutions.
       </p>
       <div class='flex justify-center mt-3'>
-<a href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+<Link href ="https://ab-africanprojects.com/usafi-sanitation_demo/"  class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</Link>
 </div>
 </div>
 </div>
@@ -242,7 +245,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
         <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Auspicious Blockchain</h5>
         <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">Auspicious Blockchain allows you to invest in Africa and Growth Markets using a Blockchain platform and infrastructure to enable crowdfunding and funding development by the African Diaspora.</p>
         <div className="flex justify-center mt-3">
-          <a href="https://ab-africanprojects.com/scanpay_demo/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+          <Link href="https://ab-africanprojects.com/scanpay_demo/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</Link>
         </div>
       </div>
     </div>
@@ -267,7 +270,7 @@ We offer tote bags, toiletry bags, backpacks, purses, travel bags and laptop sle
         <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">Uamuzi</h5>
         <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">A Social networking platform advocating for youth participation in governance and peacebuilding in Kenya and Africa.</p>
         <div className="flex justify-center mt-3">
-          <a href="https://uamuzi.org/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</a>
+          <Link href="https://uamuzi.org/" className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3">View Startup</Link>
         </div>
       </div>
     </div>
@@ -339,7 +342,7 @@ help you Support Startupes and Startups with massive ROI </p>
                 <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                     <p className="font-bold mb-7">More </p>
                     <span className="text-sm space-y-5"><p>FAQ</p>
-                    <p>About Us </p>
+                    <p>For Investors Us </p>
                     <p>Contact Us</p></span>
                 </div>
                 
