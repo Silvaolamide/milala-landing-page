@@ -16,7 +16,7 @@ import DashBoard from './DashBoard';
 const AddMilestone = () => {
   return (
     <>
-    <DashBoard>
+    <DashBoard class="h-100vh">
     <div class="ml-20 mr-20 mt-4 justify-center">
 
 <div>

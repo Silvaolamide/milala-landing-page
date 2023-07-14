@@ -15,8 +15,8 @@ const MyProjects = () => {
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span class="font-semibold title-font text-gray-700">Milestone 1</span>
-          <span class="mt-1 text-gray-500 text-sm">12 Jun 2023</span>
+          <span class="font-semibold title-font text-gray-950">Milestone 1</span>
+          <span class="mt-1 text-gray-650 text-sm">12 Jun 2023</span>
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Furniture & Leather(USD300)</h2>
@@ -39,8 +39,8 @@ const MyProjects = () => {
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span class="font-semibold title-font text-gray-700">Milestone 2</span>
-          <span class="mt-1 text-gray-500 text-sm">13 Dec 2023</span>
+          <span class="font-semibold title-font text-gray-950">Milestone 2</span>
+          <span class="mt-1 text-gray-650 text-sm">13 Dec 2023</span>
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Hiring/Human Resources (USD 420.81)</h2>
@@ -63,8 +63,8 @@ const MyProjects = () => {
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span class="font-semibold title-font text-gray-700">Milestone 3</span>
-          <span class="text-sm text-gray-500">12 Jan 2024</span>
+          <span class="font-semibold title-font text-gray-950">Milestone 3</span>
+          <span class="text-sm text-gray-650">12 Jan 2024</span>
         </div>
         <div class="md:flex-grow">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">20 Sewing Machines(USD1000)</h2>
