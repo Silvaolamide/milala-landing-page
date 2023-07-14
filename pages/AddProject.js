@@ -16,7 +16,7 @@ import DashBoard from './DashBoard';
 const MyProjects = () => {
   return (
     <>
-    <DashBoard>
+    <DashBoard class="flex">
 
     <div class="ml-20 mr-20 mt-4 justify-center">
 

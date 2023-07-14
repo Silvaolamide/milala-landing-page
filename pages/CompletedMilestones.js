@@ -8,8 +8,8 @@ import DashBoard from './DashBoard';
 const MyProjects = () => {
   return (
     <>
-    <DashBoard>
-    <section class="text-gray-600 font-inter font-bold overflow-hidden">
+    <DashBoard class="h-full">
+    <section class="text-gray-600 font-inter h-screen font-bold overflow-hidden">
     <h1 class="font-bold text-xl items-center text-center justify-center m- 3"> Milestones Status</h1>
   <div class="container px-5 py-10 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">

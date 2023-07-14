@@ -9,7 +9,7 @@ const MyProjects = () => {
     <>
     <DashBoard>
 
-    <div>
+    <div class="h-screen">
       <h1 class="font-inter text-2xl font-bold text-center m-3">Repay Milestone</h1>
       {/* Add your content here */}
     </div>
