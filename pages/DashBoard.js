@@ -86,6 +86,7 @@ const DashBoard = ({ children }) => {
           </ul>
         </div>
         <div className="flex-grow p-5">{children}</div>
+        <div class="h-screen"></div>
       </div>
     </>
   );
