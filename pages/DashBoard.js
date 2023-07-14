@@ -4,7 +4,7 @@ import Menus from '../components/menuItems';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
-const DashBoard = () => {
+const DashBoard = ({ children }) => {
   const [open, setOpen] = useState(true);
   const [submenuOpen, setSubmenuOpen] = useState({});
   const router = useRouter();
@@ -85,7 +85,7 @@ const DashBoard = () => {
             ))}
           </ul>
         </div>
-      
+        <div className="flex-grow p-5">{children}</div>
       </div>
     </>
   );
