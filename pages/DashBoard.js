@@ -18,8 +18,8 @@ const DashBoard = ({ children }) => {
 
   return (
     <>
-      <div className="flex">
-        <div className={`h-screen bg-teal-900 p-5 pt-8 ${open ? 'w-64' : 'w-20'} duration-300 relative`}>
+      <div className="flex ">
+        <div className={`h-100vh top-0 fixed bg-teal-900 p-5 pt-8 ${open ? 'w-64' : 'w-20'} duration-300 relative`}>
           <BsArrowRightShort
             className={`bg-white text-teal-950 text-3xl rounded-full absolute ml-3 -right-3 top-8 border border-teal-950 cursor-pointer duration-300 ${
               !open && 'rotate-180'
