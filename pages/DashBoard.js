@@ -27,19 +27,19 @@ const DashBoard = ({ children }) => {
             onClick={() => setOpen(!open)}
           />
           <div className="inline-flex -pt-3">
-            <div
-              className={`bg-white mr-2 text-3xl text-teal-950 rounded-full cursor-pointer block float-left duration-500 ${
-                open && 'rotate-[360deg]'
-              }`}
-            >
+         
               <Image
                 src="/img/milala-logo.svg"
-                className="h-10 w-10 "
                 alt="Milala Logo"
-                height={10}
-                width={10}
-              />
-            </div>
+                height={20}
+                width={20}
+
+                class={`h-20 w-20 -mt-6 rounded-full block float-left cursor-pointer ${open ? '-mr-5' : '-ml-3'} duration-500 ${open ? 'rotate-[360deg]' : ''}`}
+
+              >
+
+              </Image>
+           
             <h1 className={`text-white font-bold text-2xl duration-300 -mt-1 ml-2 ${!open && 'scale-0'}`}>Milala</h1>
           </div>
           <div className={`flex items-center rounded-md bg-[#FFFFF7] mt-6 ${!open ? 'px-2.5' : 'px-4'} py-2 bg-opacity-30 backdrop-filter backdrop-blur-lg`}>
