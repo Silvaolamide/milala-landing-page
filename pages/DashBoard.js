@@ -4,7 +4,7 @@ import Menus from '../components/menuItems';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
-const DashBoard = ({ children }) => {
+const Sidebar = ({ children }) => {
   const [open, setOpen] = useState(true);
   const [submenuOpen, setSubmenuOpen] = useState({});
   const router = useRouter();
@@ -92,4 +92,4 @@ const DashBoard = ({ children }) => {
   );
 };
 
-export default DashBoard;
+export default Sidebar;
