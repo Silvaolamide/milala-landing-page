@@ -24,9 +24,9 @@ const Sidebar = ({ children }) => {
      <section id="Navbar" class="rounded-xl fixed top-0 w-full">
     <nav class="rounded-[20px] bg-white fixed w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
-      <Link href="/" class="flex sm:items-center items-center">
-          <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-3" alt="Milala Logo" height={20} width={20}></Image>
-          <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl  font-semibold whitespace-nowrap ">Milala</span>
+      <Link href="/" class="flex sm:items-center -ml-7 items-center">
+          <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-6" alt="Milala Logo" height={20} width={20}></Image>
+          <span class="self-center text-[#009A9A] -ml-12 font-inter text-2xl  font-semibold whitespace-nowrap ">Milala</span>
       </Link>
       <div class="flex md:order-2">
           <div class="text-gray text-sm px-4 py-2 text-center mr-3 md:mr-0 "> <ConnectButton class="rounded-full">  </ConnectButton> </div>
