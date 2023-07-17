@@ -10,7 +10,7 @@ const MyProjects = () => {
     <DashBoard>
 
     <div class="h-screen ">
-      <h1 class="font-inter text-2xl font-bold text-center m-3">Repayment History</h1>
+      <h1 class="font-inter text-2xl py-12 font-bold text-center m-3">Repayment History</h1>
       {/* Add your content here */}
     </div>
     

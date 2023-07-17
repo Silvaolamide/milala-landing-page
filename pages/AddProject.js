@@ -18,7 +18,7 @@ const MyProjects = () => {
     <>
     <DashBoard class="flex">
 
-    <div class="ml-20 mr-20 mt-4 justify-center">
+    <div class="ml-20 mr-20 py-12 justify-center">
 
 
 <div>

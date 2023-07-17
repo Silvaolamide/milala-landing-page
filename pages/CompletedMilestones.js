@@ -10,8 +10,8 @@ const MyProjects = () => {
     <>
     <DashBoard class="h-full">
     <section class="text-gray-600 font-inter h-screen font-bold overflow-hidden">
-    <h1 class="font-bold text-xl items-center text-center justify-center m- 3"> Milestones Status</h1>
-  <div class="container px-5 py-10 mx-auto">
+    <h1 class="font-bold text-xl items-center text-center justify-center py-12"> Milestones Status</h1>
+  <div class="container px-5  mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">

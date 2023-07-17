@@ -17,7 +17,7 @@ const AddMilestone = () => {
   return (
     <>
     <DashBoard class="">
-    <div class="ml-20 mr-20 mt-4 justify-center">
+    <div class="ml-20 mr-20 mt-4 py-12 justify-center">
 
 <div>
   <div className="mb-2 mt-3 block">

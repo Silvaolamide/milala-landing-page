@@ -10,8 +10,8 @@ const MyProjects = () => {
     <>
 <DashBoard class="" >
     <section class="text-gray-600 body-font h-screen overflow-hidden">
-    <h1 class="font-bold text-xl items-center text-center justify-center mt-3">Request For Funding</h1>
-  <div class="container px-5 py-14 mx-auto">
+    <h1 class="font-bold text-xl items-center text-center justify-center py-12">Request For Funding</h1>
+  <div class="container px-5  mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
