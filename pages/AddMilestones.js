@@ -18,12 +18,12 @@ const AddMilestone = () => {
     <>
     <DashBoard class="">
     <div class="ml-20 mr-20 mt-4 py-12 justify-center">
-
+    <h1 class="py-1 font-bold text-black text-2xl text-center">Fill In the Details For Your Startup's Milestones</h1>
 <div>
   <div className="mb-2 mt-3 block">
     <Label
       htmlFor="title"
-      value="Enter Your Startup's Milestones"
+      value="Milestone Name"
     />
   </div>
   <TextInput
@@ -55,7 +55,7 @@ const AddMilestone = () => {
   <div className="mb-2 mt-3 block">
     <Label
       htmlFor="title"
-      value="Enter Your Startup's Milestones"
+      value="Milestone Name"
     />
   </div>
   <TextInput
@@ -87,7 +87,7 @@ const AddMilestone = () => {
   <div className="mb-2 mt-3 block">
     <Label
       htmlFor="title"
-      value="Enter Your Startup's Milestones"
+      value="Milestone Name"
     />
   </div>
   <TextInput

@@ -19,7 +19,7 @@ const MyProjects = () => {
     <DashBoard class="flex">
 
     <div class="ml-20 mr-20 py-12 justify-center">
-
+<h1 class="py-1 font-bold text-black text-2xl text-center">Fill In the Details for your Startup</h1>
 
 <div>
   <div className="mb-2 block">
