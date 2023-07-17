@@ -20,10 +20,11 @@ const Sidebar = ({ children }) => {
 
   return (
     <>
-    <section id="Navbar" class="rounded-xl fixed top-0  w-full">
+     
+     <section id="Navbar" class="rounded-xl fixed top-0 w-full">
     <nav class="rounded-[20px] bg-white fixed w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
       <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
-      <Link href="/" class="flex sm:items-center -ml-12 items-center">
+      <Link href="/" class="flex sm:items-center items-center">
           <Image src="./img/milala-logo.svg" class="h-12 w-20 mt-3 mr-3" alt="Milala Logo" height={20} width={20}></Image>
           <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl  font-semibold whitespace-nowrap ">Milala</span>
       </Link>
@@ -37,19 +38,19 @@ const Sidebar = ({ children }) => {
       <div class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1" id="navbar-sticky">
         <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border text-center border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
           <li>
-            <Link href="/" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded hover:bg-teal-700 hover:text-white md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</Link>
+            <Link href="/" class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded-xl  hover:text-teal md:bg-transparent md:p-0 md:dark:text-blue-500" aria-current="page">Home</Link>
           </li>
           <li>
-            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-teal-700 hover:text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Investors</Link>
+            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Investors</Link>
           </li>
           <li>
-            <Link href="/DashBoard" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-teal-700 hover:text-white  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Founders</Link>
+            <Link href="/DashBoard" class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700">For Founders</Link>
           </li>
           <li>
-            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-teal-700 hover:text-white md:p-0 ">Contact Us</Link>
+            <Link href="#" class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 ">Contact Us</Link>
           </li>
           <li>
-            <Link href="#Recents" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-teal-700 hover:text-white md:p-0 ">Projects</Link>
+            <Link href="#Recents" class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 ">Projects</Link>
           </li>
         </ul>
       </div>
