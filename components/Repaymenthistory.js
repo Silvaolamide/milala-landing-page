@@ -5,7 +5,7 @@ import Link from 'next/link';
 import DashBoard from './DashBoard';
 
 
-const MyProjects = () => {
+const RepaymentHistory= () => {
   return (
     <>
 <DashBoard class="" >
@@ -63,7 +63,7 @@ const MyProjects = () => {
       </div>
     </div>
   </div>
-</section> 
+</section>
 
 </DashBoard>
 
@@ -71,4 +71,4 @@ const MyProjects = () => {
   );
 };
 
-export default MyProjects
+export default dynamic(() => Promise.resolve(RepaymentHistory), { ssr: false });
