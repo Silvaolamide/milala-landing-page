@@ -259,7 +259,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="grid grid-cols-1 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex items-center justify-evenly content-start">
+              <div class="grid grid-cols-1 px-14 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex items-center justify-evenly content-start">
                 <div class="rounded-xl max-w-xs shadow-lg bg-white md:w-max  flex justify-center ">
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
@@ -386,6 +386,7 @@ export default function Home() {
                 </div>
               </div>
 
+                       {/**start of Features 
               <div className="container ">
                 <div className="max-w-xs mx-auto">
                   <div className="rounded-xl shadow-lg -ml-10 bg-white">
@@ -417,31 +418,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              */}
               {/**start of Features */}
-              <section class="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
-                <div class="max-w-md pr-20 lg:pt-28">
-                  <img
-                    src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png"
-                    alt=""
-                  />
-                </div>
+              <section class="mx-auto flex max-w-lg flex-col px-14 py-20 -mb-28  lg:max-w-screen-xl lg:flex-row">
+              
                 <div class="">
-                  <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="h-6 w-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
-                      />
-                    </svg>
-                  </div>
+                
                   <h2 class="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
                     A <span class="text-indigo-600">revolutionary</span> way to
                     build websites
@@ -516,21 +498,21 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-[#009A9A] font-extrabold  ">
-                    <p class=" text-[#000000] ml-10  text-center mt-14 text-4xl pb-0 mb-0 w-[11/12] ">
+                    <p class=" text-[#000000] ml-10 px-14 text-center mt-20 text-[50px] pb-0 mb-0 w-[11/12] ">
                   Contact us to <span className="text-[#009A9A] ">Support or List Your Business on Milala</span>
                     </p>
                     
                   </div>
               {/**Start of Contact */}
-              <div class="sm:p-10 mt-6 mx-20 font-inter my-auto">
+              <div class="sm:p-10 mt-2 mx-20 font-inter my-auto">
                 <section class="max-w-screen-xl md:rounded-md  md:shadow-lg">
                   <div class="grid grid-cols-4 text-gray-800 lg:grid-cols-3">
                     <div class="col-span-4 px-8 py-10 text-gray-800 md:col-span-2  md:px-10 md:py-12 lg:col-span-1">
-                      <h2 class="mb-8 text-2xl text-center font-black">Contact us</h2>
+                      <h2 class="mb-8 text-2xl text-center text-[#009A9A] font-black">Our Contact Details</h2>
                       <ul>
-                        <li class="mb-6 flex items-start text-left">
+                        <li class="mb-6 flex font-body items-start text-left">
                           <svg
-                            class="shrink-0 mr-6 text-2xl text-gray-500"
+                            class="shrink-0 mr-6 text-2xl text-[#009A9A] "
                             xmlns="http://www.w3.org/2000/svg"
                             aria-hidden="true"
                             role="img"
@@ -546,17 +528,17 @@ export default function Home() {
                           </svg>
                           <div>
                             <a
-                              class="cursor-pointer font-serif text-base md:text-lg"
+                              class="cursor-pointer font-inter text-base md:text-lg"
                               href="#"
                             >
-                              abraham@microsoft.com
+                             milala@support.com
                             </a>
                             <span class="block text-xs uppercase">email</span>
                           </div>
                         </li>
                         <li class="my-6 flex items-center text-left">
                           <svg
-                            class="shrink-0 mr-6 text-2xl text-gray-500"
+                            class="shrink-0 mr-6 text-2xl text-[#009A9A] "
                             xmlns="http://www.w3.org/2000/svg"
                             aria-hidden="true"
                             role="img"
@@ -572,17 +554,17 @@ export default function Home() {
                           </svg>
                           <div>
                             <a
-                              class="cursor-pointer font-serif text-base md:text-lg"
+                              class="cursor-pointer font-inter text-base md:text-lg"
                               href="#"
                             >
-                              abrahama.real
+                              milala DAO
                             </a>
                             <span class="block text-xs uppercase">twitter</span>
                           </div>
                         </li>
                         <li class="my-6 flex items-center text-left">
                           <svg
-                            class="shrink-0 mr-6 text-2xl text-gray-500"
+                            class="shrink-0 mr-6 text-2xl text-[#009A9A] "
                             xmlns="http://www.w3.org/2000/svg"
                             aria-hidden="true"
                             role="img"
@@ -599,8 +581,8 @@ export default function Home() {
                             />
                           </svg>
                           <div>
-                            <p class="font-serif text-base md:text-lg">
-                              abraham
+                            <p class="font-inter text-base md:text-lg">
+                              milala DAO
                             </p>
                             <span class="block text-xs uppercase">
                               LinkedIn
@@ -610,27 +592,25 @@ export default function Home() {
                       </ul>
                     </div>
                     <div class="order-first col-span-4 max-w-screen-md px-8 py-10 md:order-last md:col-span-2 md:px-10 md:py-12">
-                      <h2 class="mb-8 text-2xl text-center font-black">Get in touch</h2>
-                      <p class="mt-2 mb-4 font-sans text-sm tracking-normal">
-                        Don't be shy to ask me a question.
-                      </p>
+                      <h2 class="mb-8 text-2xl text-center text-[#009A9A]  font-black">Send us a Message</h2>
+                    
                       <form action="">
                         <div class="md:col-gap-4 mb-5 grid md:grid-cols-2">
                         <input
-                            class="col-span-1 w-full border-none py-3 text-sm outline-none "
+                            class="col-span-1 w-full border-none py-3 text-md outline-none "
                             type="name"
                             placeholder="Name"
                             name="Name"
                           />
                           <input
-                            class="col-span-1 w-full border-none py-3 text-sm outline-none "
+                            class="col-span-1 w-full border-none py-3 text-md outline-none "
                             type="email"
                             placeholder="Email"
                             name="email"
                           />
                         </div>
                         <textarea
-                          class="mb-10 w-full resize-y whitespace-pre-wrap border-none py-3 text-sm outline-none "
+                          class="mb-10 w-full resize-y whitespace-pre-wrap border-none py-3 text-md outline-none "
                           id=""
                           rows="6"
                           placeholder="Question"
