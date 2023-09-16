@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Homepage from '../components/Homepage';
 
 const Sidebar = ({ children }) => {
   const [open, setOpen] = useState(true);
@@ -128,6 +129,7 @@ const Sidebar = ({ children }) => {
         <div className="flex-grow p-5">{children}</div>
         <div class="h-screen"></div>
       </div>
+
     </>
   );
 };
