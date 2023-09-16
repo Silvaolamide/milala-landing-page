@@ -424,49 +424,57 @@ export default function Home() {
               
                 <div class="">
                 
-                  <h2 class="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
-                    A <span class="text-indigo-600">revolutionary</span> way to
-                    build websites
+                  <h2 class="mb-10  text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
+                    A <span class="text-[#009A9A] ">revolutionary</span> way to
+                  Support African Startups
                   </h2>
                   <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2">
                     <div>
-                      <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">
-                        Launch Websites in minutes
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Blockchain-Powered Investment Platform:
                       </p>
                       <p class="text-lg text-gray-800">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Nam nihil reprehenderit laboriosam, exercitationem
-                        consectetur deserunt aliquam ab maiores!
+                      Milala utilizes cutting-edge blockchain technology to provide a secure and transparent investment platform.
                       </p>
                     </div>
                     <div>
-                      <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">
-                        Never miss deadlines
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Support for African Startups:
                       </p>
                       <p class="text-lg text-gray-800">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Nam nihil reprehenderit laboriosam, exercitationem
-                        consectetur deserunt aliquam ab maiores!
+                      Milala specializes in supporting startups in Africa and the Diaspora, fostering economic growth and innovation.
                       </p>
                     </div>
                     <div>
-                      <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">
-                        Super Intuitive
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Easy Investing Anywhere:
                       </p>
                       <p class="text-lg text-gray-800">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Nam nihil reprehenderit laboriosam, exercitationem
-                        consectetur deserunt aliquam ab maiores!
+                      Users can easily invest in African startups from anywhere in the world through Milala's user-friendly platform.
                       </p>
                     </div>
                     <div>
-                      <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">
-                        Speedy Websites
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Massive ROI Opportunities:
                       </p>
                       <p class="text-lg text-gray-800">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Nam nihil reprehenderit laboriosam, exercitationem
-                        consectetur deserunt aliquam ab maiores!
+                      Milala offers investment opportunities with the potential for significant return on investment (ROI).
+                      </p>
+                    </div>
+                    <div>
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Startup Listing Service:
+                      </p>
+                      <p class="text-lg text-gray-800">
+                      Founders can list their startups on Milala, gaining exposure to potential investors and supporters.
+                      </p>
+                    </div>
+                    <div>
+                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
+                      Transparent Investment Process
+                      </p>
+                      <p class="text-lg text-gray-800">
+                     As a DAO,(Decentralized Autonomous Organization) Milala maintains transparency in the investment process, providing users with insights into where their investments go.
                       </p>
                     </div>
                   </div>
@@ -498,13 +506,14 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-[#009A9A] font-extrabold  ">
-                    <p class=" text-[#000000] ml-10 px-14 text-center mt-20 text-[50px] pb-0 mb-0 w-[11/12] ">
-                  Contact us to <span className="text-[#009A9A] ">Support or List Your Business on Milala</span>
-                    </p>
+              <h2 class="mt-16 text-4xl text-center font-bold leading-snug lg:text-5xl lg:leading-snug">
+                   Contact Us<span class="text-black "> to
+                  Support African</span> Startups or List one
+                  </h2>
                     
                   </div>
               {/**Start of Contact */}
-              <div class="sm:p-10 mt-2 mx-20 font-inter my-auto">
+              <div class="sm:p-10 -mt-6 mx-20 font-inter my-auto">
                 <section class="max-w-screen-xl md:rounded-md  md:shadow-lg">
                   <div class="grid grid-cols-4 text-gray-800 lg:grid-cols-3">
                     <div class="col-span-4 px-8 py-10 text-gray-800 md:col-span-2  md:px-10 md:py-12 lg:col-span-1">
