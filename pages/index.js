@@ -428,7 +428,7 @@ export default function Home() {
                     A <span class="text-[#009A9A] ">revolutionary</span> way to
                   Support African Startups
                   </h2>
-                  <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2">
+                  <div class="grid mt-4 py-8 gap-y-12 gap-x-8 lg:grid-cols-2">
                     <div>
                       <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
                       Blockchain-Powered Investment Platform:
