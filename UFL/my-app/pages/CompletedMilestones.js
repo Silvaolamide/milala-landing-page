@@ -274,7 +274,7 @@ console.log("data3:",milestoneData)
         <h1 class="font-bold text-2xl items-center text-center text-black justify-center py-12 mt-3"> Milestones Status</h1>
        <div class="container px-5 mx-auto">
           <div class="-my-8 divide-y-2 divide-gray-100">
-          {milestoneData.map((milestone, index) => (
+          {milestoneData.slice().reverse().map((milestone, index) => (
              <div class="py-8 flex flex-wrap md:flex-nowrap" key={index}>
             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span class="font-semibold title-font text-gray-950">Milestone {index + 1}</span>
