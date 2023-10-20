@@ -1,5 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import dynamic from "next/dynamic";
+import { ChakraProvider } from '@chakra-ui/react'
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultWallets, RainbowKitProvider, lightTheme
 } from '@rainbow-me/rainbowkit';
@@ -46,8 +47,11 @@ function MyApp({ Component, pageProps }) {
     
     
     >
+      <ChakraProvider>
+
       
     <Component {...pageProps} />
+    </ChakraProvider>
     </RainbowKitProvider>
   </WagmiConfig>
 );

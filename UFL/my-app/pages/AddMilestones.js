@@ -14,7 +14,7 @@ import { Button } from 'flowbite-react';
 import { ethers } from "ethers";
 import DashBoard from './DashBoard';
 
-import { useContractWrite, usePrepareContractWrite } from 'wagmi'
+import { useContractWrite, usePrepareContractWrite,useWaitForTransaction } from 'wagmi'
 import { contractABI,contractAddress } from "../components/abi/utils/constant";
 import Loading from "@/components/global/Loading";
 
@@ -50,11 +50,14 @@ const AddMilestone = () => {
    functionName: 'createMilestone',
     args:[milestoneDescription,(fundingAmount)]
   })
-  const { data:allowanceData, isLoading,  isSuccess, write:writeMilestone } = useContractWrite(Milestone)
+  const { data:allowanceData, isLoading, write:writeMilestone } = useContractWrite(Milestone)
   
-console.log("data:",allowanceData, "SUCCESS:",isSuccess)
+console.log("data:",allowanceData)
 
-
+const { isLoading:botLoading} = useWaitForTransaction({
+  confirmations: 1,
+   hash: allowanceData?.hash,
+ })
   return (
     <>
     <DashBoard class="">
@@ -99,83 +102,11 @@ console.log("data:",allowanceData, "SUCCESS:",isSuccess)
 </div>
 
 
-{/* 
-<div id="textarea" class="top-20 mt-4 justify-center">
-  <div className="mb-2 block">
-    <Label
-      htmlFor="comment"
-      value="Milestone Description"
-    />
-  </div>
-  <Textarea
-    id="comment"
-    placeholder="Provide a Brief description of this Milestone..."
-    required={true}
-    rows={4}
-    onChange={(e) => setMilestoneDescription(e.target.value)}
-    value={milestoneDescription}
-  />
-</div>
-
-<div>
-  <div className="mb-2 mt-3 block">
-    <Label
-      htmlFor="title"
-      value="Funding Required"
-    />
-  </div>
-  <TextInput
-  id="amountInput"     // Change the id to something more appropriate for amount input
-  type="number"        // Change the type to 'number' for amount input
-  placeholder="Funding Amount 2"  // Change the placeholder text to something suitable for amounts
-  required={true}       // Keep the 'required' attribute if you want to make it mandatory
-  onChange={(e) => setFundingAmount(e.target.value)}
-      value={fundingAmount}
-
-/>
-</div>
 
 
 
-
-
-<div id="textarea" class="top-20 mt-4 justify-center">
-  <div className="mb-2 block">
-    <Label
-      htmlFor="comment"
-      value="Milestone Description"
-    />
-  </div>
-  <Textarea
-    id="comment"
-    placeholder="Provide a Brief description of this Milestone..."
-    required={true}
-    rows={4}
-    onChange={(e) => setMilestoneDescription(e.target.value)}
-    value={milestoneDescription}
-  />
-</div>
-
-<div>
-  <div className="mb-2 mt-3 block">
-    <Label
-      htmlFor="title"
-      value="Funding Required"
-    />
-  </div>
-  <TextInput
-  id="amountInput"     // Change the id to something more appropriate for amount input
-  type="number"        // Change the type to 'number' for amount input
-  placeholder="Funding Amount 3"  // Change the placeholder text to something suitable for amounts
-  required={true}
-  onChange={(e) => setFundingAmount(e.target.value)}
-      value={fundingAmount}      
-/>
-</div> */}
-
-<Loading/>
   <div class="my-5 flex mr-10 ml-10 items-center justify-center">
-  {isLoading?<Loading/>:(
+  {(isLoading||botLoading)?<Loading/>:(
   <button class=" mt-2 rounded-lg border-2 border-[#009A9A] bg-[#009A9A] px-6 py-2 font-medium text-white justify-center items-center transition hover:translate-y-1"
   
   onClick={()=>{
