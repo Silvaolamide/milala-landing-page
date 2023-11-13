@@ -110,6 +110,14 @@ export default function Home() {
                     Projects
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/Courses"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 "
+                  >
+                    Courses
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

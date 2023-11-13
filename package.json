@@ -6,16 +6,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
     "@rainbow-me/rainbowkit": "^0.12.7",
     "@types/node": "*",
     "ethers": "^5.7.2",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.4",
+    "ganache-cli": "^6.12.2",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
     "styled-jsx-plugin-sass": "^1.0.0",
+    "truffle": "^5.11.5",
     "typescript": "^5.0.3",
     "wagmi": "^0.12.9"
   },
