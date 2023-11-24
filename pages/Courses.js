@@ -78,22 +78,7 @@ export default function Home() {
                     Home
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    For Investors
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/DashBoard"
-                    class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    For Founders
-                  </Link>
-                </li>
+
                 <li>
                   <Link
                     href="#"
@@ -228,7 +213,7 @@ export default function Home() {
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
-                        href="https://auspiciousblockchain.org/courses/blockchain-crash-course/"
+                        href="/CrashCourse"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
                         View Course
@@ -248,20 +233,18 @@ export default function Home() {
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">
-                        Understanding CryptoCurrency and Digital Assets Using
-                        Data & Analytics (Live Session)
+                        Introduction to DeFI (Decentralized Finance)
                       </h5>
                     </div>
                     <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">
-                      Join our live session to uncover the intricacies of
-                      cryptocurrencies and digital assets. Learn to navigate
-                      these markets using data and analytics, gaining insights
-                      crucial for informed decision-making in the dynamic realm
-                      of digital finance.
+                      This course introduces the concept of DEFI (Decentralized
+                      Finance) , you will learn about Defi & what it enables you
+                      to do,why you need to take advantage of Defi opportunities
+                      and the language & key terms associated with Defi.
                     </p>
                     <div class="flex justify-center mt-6">
                       <Link
-                        href="https://auspiciousblockchain.org/courses/understanding-cryptocurrency-and-digital-assets-using-data-analytics-live-session/"
+                        href="/DEFI"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
                         View Course
@@ -281,19 +264,19 @@ export default function Home() {
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
-                        Blockchain Betty
+                        Introduction to Crypto Currencies
                       </h5>
                     </div>
                     <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
-                      Step into the world of blockchain innovation with
-                      "Blockchain Betty." This course offers a comprehensive
-                      journey, covering everything from the basics to advanced
-                      concepts, empowering you to become proficient in
-                      blockchain technology and its applications.{" "}
+                      This course offers a comprehensive introduction to the
+                      core principles of digital currencies, the workings of
+                      blockchain technology, and the essential tools required
+                      for navigating the evolving landscape of cryptocurrencies.
+                     
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
-                        href="https://auspiciousblockchain.org/courses/blockchain-betty/"
+                        href="/Crypto"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
                         View Course
@@ -303,40 +286,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/**start of Features 
-              <div className="container ">
-                <div className="max-w-xs mx-auto">
-                  <div className="rounded-xl shadow-lg -ml-10 bg-white">
-                    <div className="p-4 flex flex-col">
-                      <div className="rounded-xl overflow-hidden">
-                        <img
-                          src="./img/Uamuzi.png"
-                          className="h-64 w-full"
-                          alt="Startup Image"
-                        />
-                      </div>
-                      <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">
-                        Uamuzi
-                      </h5>
-                      <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">
-                        A Social networking platform advocating for youth
-                        participation in governance and peacebuilding in Kenya
-                        and Africa.
-                      </p>
-                      <div className="flex justify-center mt-3">
-                        <Link
-                          href="https://uamuzi.org/"
-                          className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
-                        >
-                       View Course
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              */}
-              {/**start of Features */}
               <section class="mx-auto flex max-w-lg flex-col px-14 py-20 -mb-28  lg:max-w-screen-xl lg:flex-row">
                 <div class="">
                   <h2 class="mb-10  text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
@@ -574,9 +523,7 @@ export default function Home() {
               <div className="flex   mt-24 bg-black-400 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter">
                 <div class="flex flex-col md:flex-row  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
                   <div className="mb-20 bg-milala-footer bg-50% bg-no-repeat pt-40 md:pt-1 mr-10 h-[210px] w-[100%] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
-                    <p>
-                    (c)MilaSchool 2023. All Rights Reserved{" "}
-                    </p>
+                    <p>(c)MilaSchool 2023. All Rights Reserved </p>
                   </div>
                   <div className="flex ">
                     <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
