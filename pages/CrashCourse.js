@@ -134,7 +134,7 @@ hence there's no need to pay processing fees on transactions.
 
           </article>
           <div class="my-5 flex mr-10 ml-10 items-center justify-center">
-    <Link href="/DashBoard">
+    <Link href="/Courses">
   <button class=" mt-2 rounded-lg border-2 border-[#009A9A] bg-[#009A9A] px-6 py-2 font-medium text-white justify-center items-center transition hover:translate-y-1">
     
    Back to Courses
