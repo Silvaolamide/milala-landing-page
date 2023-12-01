@@ -33,7 +33,7 @@ export default function Home() {
                 width={20}
               ></Image>
               <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl  font-semibold whitespace-nowrap ">
-                Milala
+                MilaSchool
               </span>
             </Link>
             <div class="flex md:order-2">
@@ -68,42 +68,7 @@ export default function Home() {
               class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
-              <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border text-center border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
-                <li>
-                  <Link
-                    href="/"
-                    class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded-xl  hover:text-teal md:bg-transparent md:p-0 md:dark:text-blue-500"
-                    aria-current="page"
-                  >
-                    Home
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 "
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#Recents"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 "
-                  >
-                    Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/Courses"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 "
-                  >
-                    Courses
-                  </Link>
-                </li>
-              </ul>
+           
             </div>
           </div>
         </nav>
