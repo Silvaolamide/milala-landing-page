@@ -9,6 +9,7 @@
     "@openzeppelin/contracts": "^5.0.0",
     "@rainbow-me/rainbowkit": "^0.12.7",
     "@types/node": "*",
+    "@vercel/analytics": "^1.1.1",
     "ethers": "^5.7.2",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.4",
